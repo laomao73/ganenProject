@@ -1,0 +1,166 @@
+#banner-frame{
+    width:100%;
+    height:9.5rem;
+    border:0px solid black;
+    position:relative;
+    overflow: hidden;
+}
+
+#brace-frame{
+    width:100%;
+    border:0px solid black;
+    margin-top:1.5rem;
+    position:relative;
+}
+
+.brace{
+    width:15rem;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.brace ul{
+    width:100%;
+    position:relative;
+}
+
+.brace ul li{
+    width:100%;
+    overflow: hidden;
+    margin-bottom:1.5rem;
+    border:0px solid black;
+    position:relative;
+}
+
+.brace-icon{
+    width:2.2rem;
+    height:2.6rem;
+    border:0px solid red;
+    float:left;
+    position:relative;
+}
+
+.brace-content{
+    width:12rem;
+    height:2.6rem;
+    float:right;
+    position:relative;
+    border:0px solid yellow;
+}
+
+.brace-content h3{
+    font-size:0.6rem;
+    color:#333;
+}
+
+.brace-content p{
+    font-size:0.5rem;
+    color:#333;
+    margin-top:0.3rem;
+}
+
+#sx-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:1.5rem;
+}
+
+.sx{
+    width:15rem;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.sx h3{
+    font-size:0.8rem;
+    color:#333;
+    text-align: center;
+}
+
+.sx-line{
+    width:4.1rem;
+    height:2px;
+    background:#33cdbe;
+    margin:0.5rem auto 0 auto;
+}
+
+.sx p{
+    font-size:0.6rem;
+    color:#333;
+    text-align: center;
+    margin-top:0.5rem;
+}
+
+.bgc-frame,.bgf-frame{
+    width:100%;
+    height:6rem;
+    background:#ececec;
+    position:relative;
+    margin-top:1rem;
+    padding-top:1.4rem;
+}
+
+.bgf-frame{
+    background:#fff;
+}
+
+.bgc,.bgf{
+    width:15rem;
+    border:0px solid black;
+    margin:0 auto;
+    text-align: center;
+}
+
+.bgc h3,.bgf h3{
+    font-size:0.6rem;
+    color:#333;
+    margin-bottom:0.5rem;
+}
+
+.bgc p,.bgf p{
+    font-size:0.5rem;
+    margin-bottom:0.2rem;
+}
+
+#xt-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:1rem;
+}
+
+.xt{
+    width:15rem;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+    text-align: center;
+}
+
+.xt h3{
+    font-size:0.7rem;
+    color:#333;
+    margin-bottom:0.5rem;
+}
+
+.xt p{
+    font-size:0.5rem;
+    color:#333;
+    margin-bottom:0.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

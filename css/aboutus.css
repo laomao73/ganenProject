@@ -1,0 +1,234 @@
+/*关于我们开始*/
+#about-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:60px;
+}
+
+.about{
+    width:1200px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.about-title{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+}
+
+.about-title-icon{
+    width:20px;
+    height:20px;
+    background:#33cdbe;
+    margin:0 auto;
+    position:relative;
+    transform: rotate(45deg);
+}
+
+.about-title-txt{
+    font-size:32px;
+    color:#333;
+    text-align: center;
+    margin-top:10px;
+}
+
+.about-content{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:60px;
+    overflow: hidden;
+}
+
+.about-content-center{
+    width:840px;
+    height:250px;
+    border:0px solid black;
+    margin:0 auto;
+    overflow: hidden;
+    position:relative;
+}
+
+.about-content-img{
+    width:332px;
+    height:100%;
+    overflow: hidden;
+    float:left;
+}
+
+.about-content-txt{
+    width:470px;
+    height:185px;
+    border:0px solid black;
+    position:absolute;
+    left:350px;
+    top:50%;
+    margin-top:-94px;
+}
+
+.company-txt{
+    font-size:18px;
+    color:#333;
+}
+
+.line{
+    display: block;
+    width:100%;
+    height:3px;
+    background:#999;
+    margin:20px 0 30px 0;
+}
+
+.company-content{
+    font-size:12px;
+    color:#999;
+}
+
+/*关于我们结束*/
+
+
+/*前沿解决方案开始*/
+
+#qyfn-frame{
+    width:100%;
+    height:360px;
+    border:0px solid black;
+    position:relative;
+    overflow: hidden;
+    margin-top:100px;
+}
+
+.qyfn-content{
+    width:764px;
+    height:170px;
+    border:0px solid #000;
+    position:absolute;
+    left:15%;
+    top:50%;
+    margin-top:-85px;
+    z-index:10;
+}
+
+.qyfn-title{
+    font-size:18px;
+    color:#fff;
+}
+
+.qyfn-txt-box{
+    margin-top:50px;
+}
+
+.qyfn-txt-box p{
+    font-size:12px;
+    color:#fff;
+}
+
+/*前沿解决方案结束*/
+
+
+/*产品设计理念开始*/
+
+#cp-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:100px;
+}
+
+.cp{
+    width:960px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.cp-title{
+    font-size:32px;
+    color:#333;
+    text-align: center;
+}
+
+.cp-content{
+    width:100%;
+    height:260px;
+    border:0px solid black;
+    position:relative;
+    margin:50px 0 50px 0;
+}
+
+.cp-content-left,.cp-content-right{
+    width:450px;
+    height:260px;
+    background:#fff;
+    border:0px solid black;
+    position:relative;
+    border:1px solid #ccc;
+    box-shadow: 3px 3px 3px #ccc;
+}
+
+.cp-content-left{
+    float:left;
+}
+
+.cp-content-right{
+    float:right;
+}
+
+.cp-content-main{
+    width:120px;
+    height:170px;
+    border:0px solid black;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-60px;
+    margin-top:-85px;
+}
+
+.cp-content-main-top{
+    width:100%;
+    height:35px;
+    position:relative;
+    line-height: 35px;
+    overflow: hidden;
+}
+
+.cp-content-main-top img{
+    float:left;
+}
+
+.cp-content-main-top p{
+    font-size:18px;
+    color:#333;
+    float:right;
+}
+
+.cp-content-main-bottom{
+    width:100%;
+    position:relative;
+    margin-top:60px;
+    border:0px solid black;
+}
+
+.cp-content-main-bottom p{
+    font-size:12px;
+    color:#999;
+}
+
+/*产品设计理念结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+
+#header-frame{
+    width:100%;
+    height:2.1rem;
+    background:#33cdbe;
+    position:relative;
+    overflow: hidden;
+}
+
+.header{
+    width:15rem;
+    height:100%;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.logo{
+    width:133px;
+    height:100%;
+    border:0px solid black;
+    float:left;
+    background:url(../ganenmoblieimages/logo.png) no-repeat;
+    background-size: contain;
+    background-position: 0px 0px;
+}
+
+.menu-box{
+    width:30px;
+    height:100%;
+    border:0px solid black;
+    float:right;
+    position:relative;
+    background:url(../ganenmoblieimages/menu.png) no-repeat;
+    background-position: 0 0.55rem;
+}
+
+.menu{
+    width:16.4rem;
+    height:10rem;
+    background:rgba(51,205,190,0.8);
+    position:absolute;
+    left:-14.4rem;
+    top:2.1rem;
+    z-index:10;
+    border:0px solid black;
+}
+
+.menu{
+    width:8rem;
+    background:rgba(0,66,88,0.8);
+    position:fixed;
+    /*left:8rem;*/
+    left:16rem;
+    top:0;
+    z-index:10;
+}
+
+.menu-ul{
+    width:7.5rem;
+    height:10rem;
+    border:0px solid black;
+    position:absolute;
+    left:50%;
+    top:1rem;
+    margin-left:-3.7rem;
+}
+
+.menu-ul .menu-li{
+    width:100%;
+    height:2rem;
+    text-align: center;
+    /*border-bottom:1px solid #fff;*/
+}
+
+.menu-ul .menu-li a{
+    text-decoration: none;
+    color:#fff;
+    font-size:0.7rem;
+    line-height: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

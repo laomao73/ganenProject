@@ -1,0 +1,558 @@
+/*banner区开始*/
+#banner-frame{
+    width:100%;
+    height:520px;
+    position:relative;
+    border:0px solid black;
+    overflow: hidden;
+}
+
+.banner-ul{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:-2;
+}
+
+.banner-ul .banner-item{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    opacity: 0;
+    transition:0.6s all ease;
+    z-index: -1;
+}
+
+.banner-ul .banner-item.active{
+    opacity: 1;
+}
+
+#btn-box{
+    width:100%;
+    height:15px;
+    border:0px solid black;
+    position:absolute;
+    left:0;
+    bottom:20px;
+    text-align: center;
+}
+
+.banner-btn{
+    display: inline-block;
+    width:15px;
+    height:15px;
+    border:2px solid #fff;
+    border-radius: 50%;
+    margin:0 10px;
+}
+
+.banner-btn.active{
+    background:#fff;
+}
+
+/*banner区结束*/
+
+/*主营业务区开始*/
+#main-frame{
+    width:100%;
+    position:relative;
+    border:0px solid black;
+    margin-top:60px;
+}
+
+.main{
+    width:1200px;
+    border:0px solid black;
+    position:relative;
+    margin:0 auto;
+}
+
+.main-title{
+    width:100%;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 32px;
+    color:#333;
+    font-family: 微软雅黑;
+    font-weight: bold;
+}
+
+.main-content{
+    width:100%;
+    margin-top:50px;
+    border:0px solid black;
+    position:relative;
+    overflow: hidden;
+}
+
+.main-content-list{
+    width:300px;
+    height:300px;
+    border:0px solid black;
+    float:left;
+    margin-left:75px;
+}
+
+.icon-title{
+    width:100%;
+    height:81px;
+    position:relative;
+    border:0px solid black;
+}
+
+.icon{
+    width:81px;
+    height:81px;
+    border:0px solid black;
+    margin:0 auto;
+}
+
+.main-content-list-title{
+    width:100%;
+    font-size:18px;
+    color:#333;
+    font-family: 微软雅黑;
+    text-align: center;
+    margin-top:20px;
+}
+
+.main-content-box{
+    margin-top:50px;
+}
+
+.main-content-list-txt{
+    text-align: center;
+    font-size:12px;
+    color:#999;
+    margin-top:5px;
+}
+
+/*主营业务区结束*/
+
+
+/*解决企业痛点开始*/
+#question-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:50px;
+}
+
+.question{
+    width:1200px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.question-title{
+    font-size:32px;
+    color:#333;
+    width:100%;
+    text-align: center;
+}
+
+.question-content-list-box{
+    width:100%;
+    height:220px;
+    border:0px solid black;
+    margin-top:50px;
+    position:relative;
+    overflow: hidden;
+}
+
+.question-content-list{
+    width:310px;
+    height:100%;
+    border:0px solid black;
+    float:left;
+    margin:0 42px 0 42px;
+}
+
+.question-content-list-img{
+    width:100%;
+    height:169px;
+    position:relative;
+    border:0px solid black;
+}
+
+.question-content-list-txt{
+    font-size:18px;
+    color:#333;
+    text-align: center;
+    margin-top:25px;
+}
+
+.question-mask{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.8);
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:3;
+    opacity: 0;
+    transition:0.5s all ease;
+}
+
+.question-mask-txt-box{
+    width:100%;
+    height:66px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-33px;
+    border:0px solid #fff;
+}
+
+.question-mask p{
+    font-size:12px;
+    color:#fff;
+    text-align: center;
+    margin-top:5px;
+}
+
+.question-content-list:hover .question-mask{
+    opacity: 1;
+}
+
+/*解决企业痛点结束*/
+
+
+/*金税三期引发的思考开始*/
+#sk-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:100px;
+}
+
+.sk{
+    width:100%;
+    height:360px;
+    border:0px solid black;
+    position:relative;
+    margin-top:50px;
+    overflow: hidden;
+}
+
+.sk-mask{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.8);
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:3;
+}
+
+.sk-mask-content{
+    width:1200px;
+    height:250px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-600px;
+    margin-top:-100px;
+    border:0px solid #fff;
+}
+
+.sk-mask-list{
+    width:200px;
+    height:200px;
+    border:2px solid #33cdbe;
+    float:left;
+    margin:0 95px 0 95px;
+    transform: rotate(45deg);
+    position:relative;
+}
+
+.sk-mask-list-txt-box{
+    width:200px;
+    height:200px;
+    border:0px solid #fff;
+    transform: rotate(-45deg);
+    position:relative;
+}
+
+.sk-mask-list-txt{
+    width:105px;
+    height:150px;
+    border:0px solid yellow;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-54px;
+    margin-top:-75px;
+    text-align: center;
+}
+
+.sk-mask-list-txt h3{
+    font-size:18px;
+    color:#fff;
+}
+
+.sk-mask-list-txt p{
+    font-size:12px;
+    color:#fff;
+    margin-top:5px;
+}
+
+/*金税三期引发的思考结束*/
+
+
+/*企业面临的挑战开始*/
+
+#challenge-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:100px;
+}
+
+.challenge{
+    width:1200px;
+    height:400px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.btn-box{
+    width:100%;
+    height:66px;
+    border:0px solid black;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-33px;
+    z-index:5;
+}
+
+.prev,.next{
+    width:60px;
+    height:60px;
+    position:absolute;
+    border:0px solid black;
+    border-radius: 50%;
+    background:url(../images/sliderbtn.png) no-repeat;
+    box-shadow: 0px 0px 5px #ccc,3px 3px 4px #ccc;
+    cursor: pointer;
+}
+
+.prev{
+    left:0;
+    top:0;
+    background-position:0 -4px;
+}
+
+.next{
+    right:0;
+    top:0;
+    background-position:-75px -4px;
+}
+
+.challenge-item-box{
+    width:100%;
+    height:100%;
+    border:0px solid red;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:3;
+}
+
+.challenge-item-box ul{
+    width:100%;
+    height:100%;
+}
+
+.challenge-item-box ul li{
+    width:700px;
+    height:390px;
+    border:0px solid black;
+    position:relative;
+    box-shadow: 0px 0px 10px #909090;
+    border-radius: 10px;
+}
+
+.challenge-item-box ul li img{
+    border-radius: 10px;
+}
+
+.challenge-mask{
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.4);
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:10;
+    border-radius: 10px;
+}
+
+.challenge-mask-txt{
+    width:250px;
+    margin:120px auto 0 auto;
+    border:0px solid #fff;
+}
+
+.challenge-mask-txt h3{
+    font-size:18px;
+    color:#fff;
+    text-align: center;
+}
+
+.challenge-mask-txt p{
+    font-size:12px;
+    color:#fff;
+    text-align: center;
+    margin-top:30px;
+}
+
+/*企业面临的挑战结束*/
+
+
+/*参考法条开始*/
+#law-frame{
+    width:100%;
+    height:650px;
+    border:0px solid black;
+    position:relative;
+    margin-top:100px;
+    overflow: hidden;
+}
+
+.law-mask{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    background:rgba(0,0,0,0.8);
+}
+
+.law{
+    width:1200px;
+    height:100%;
+    border:0px solid #fff;
+    margin:0 auto;
+    position:relative;
+}
+
+.law h3{
+    font-size:32px;
+    color:#fff;
+    text-align: center;
+    margin-top:80px;
+}
+
+.law ul{
+    width:100%;
+    height:380px;
+    border:0px solid #fff;
+    margin-top:80px;
+    position:relative;
+}
+
+.law ul li{
+    width:250px;
+    height:100%;
+    border:2px solid #33cdbe;
+    float:left;
+    margin:0 20px;
+    position:relative;
+}
+
+.law-content{
+    width:150px;
+    height:260px;
+    border:0px solid yellow;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-75px;
+    margin-top:-130px;
+}
+
+.law-content-title{
+    font-size:18px;
+    color:#fff;
+    text-align: center;
+}
+
+.law-line{
+    display: block;
+    width:50px;
+    height:4px;
+    background:#33cdbe;
+    margin:40px auto 0 auto;
+}
+
+.law-content-txt{
+    font-size:12px;
+    color:#fff;
+    margin-top:25px;
+}
+/*参考法条结束*/
+
+
+/*合作伙伴开始*/
+
+#firend-frame{
+    width:100%;
+    border:0px solid black;
+    margin-top:100px;
+    position:relative;
+}
+
+.firend{
+    width:1200px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.friend-title{
+    text-align: center;
+    font-size:32px;
+    color:#333;
+}
+
+.company-logo{
+    width:100%;
+    height:400px;
+    border:0px solid black;
+    margin-top:60px;
+    position:relative;
+    overflow: hidden;
+}
+
+/*合作伙伴结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

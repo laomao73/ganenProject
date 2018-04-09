@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>预留信息查询登录</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="tooljs/vue.min.js"></script>
+    <script src="tooljs/vue-resource.min.js"></script>
+    <script>
+        window.onload = function(){
+            var loginContent = new Vue({
+                el:'#login-content',
+                data:{
+                    username:'',
+                    password:''
+                },
+                methods:{
+                    login:function(){
+                        this.$http.post('http://www.52ganen.com/weiXin/user/login.do',{
+                            username:this.username,
+                            password:this.password
+                        },{
+                            emulateJSON:true
+                        }).then(function(res){
+                            var json = eval('('+res.bodyText+')');
+                            if(json.result == '登陆成功'){
+                                window.location.href = 'http://www.52ganen.com/table.html'
+                            }else{
+                                alert(json.result);
+                                this.username = '';
+                                this.password = '';
+                            }
+                        },function(res){
+                            console.log(res);
+                        });
+                    }
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+
+<div id="login-content">
+    <h3 class="login-title">用户预留信息查看登录页</h3>
+    <div class="login-input-box">
+        <input type="text" class="txt" v-model="username" placeholder="用户名">
+        <input type="password" class="txt" v-model="password" placeholder="密码">
+    </div>
+    <div class="login-btn-box">
+        <a href="javascript:;" class="login-btn" @click="login()">登录</a>
+    </div>
+</div>
+
+</body>
+</html>

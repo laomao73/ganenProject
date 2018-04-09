@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-family: 微软雅黑;
+}
+
+#nav-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+}
+
+.nav{
+    width:1200px;
+    height:70px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.logo{
+    width:210px;
+    height:100%;
+    border:0px solid black;
+    float: left;
+}
+
+.logo img{
+    position:absolute;
+    top:50%;
+    margin-top:-16px;
+}
+
+.menu-box{
+    width:700px;
+    height:100%;
+    border:0px solid black;
+    position:absolute;
+    right:200px;
+    top:0;
+}
+
+.menu-box .menu-ul{
+    width:100%;
+    height:100%;
+}
+
+.menu-box .menu-ul .menu-li{
+    height:100%;
+    border:0px solid black;
+    float:left;
+    padding:0 30px 0 30px;
+    position:relative;
+}
+
+.menu-box .menu-ul .menu-li .link{
+    display: block;
+}
+
+.menu-box .menu-ul .menu-li:hover{
+    height:100%;
+    border:0px solid black;
+    float:left;
+    padding:0 30px 0 30px;
+    background:#33cdbe;
+}
+
+.menu-box .menu-ul .menu-li:hover .link{
+    text-decoration: none;
+    font-size:14px;
+    font-family: 微软雅黑;
+    text-align: center;
+    line-height:70px;
+    color:#fff;
+}
+
+.menu-box .menu-ul .menu-li.active{
+    height:100%;
+    border:0px solid black;
+    float:left;
+    padding:0 30px 0 30px;
+    background:#33cdbe;
+    color:#fff;
+}
+
+.menu-box .menu-ul .menu-li .link{
+    text-decoration: none;
+    font-size:14px;
+    font-family: 微软雅黑;
+    text-align: center;
+    line-height:70px;
+    color:#333;
+}
+
+.menu-box .menu-ul .menu-li.active .link{
+    text-decoration: none;
+    font-size:14px;
+    font-family: 微软雅黑;
+    text-align: center;
+    line-height:70px;
+    color:#fff;
+}
+
+.menu-box .menu-ul .menu-li.select:hover ul{
+    display: block;
+}
+
+.menu-li ul{
+    width:100%;
+    position:absolute;
+    left:0;
+    top:70px;
+    z-index:10;
+    display: none;
+}
+
+.menu-li ul li{
+    width:100%;
+    height:70px;
+    border:0px solid black;
+    position:relative;
+    background:#fff;
+}
+
+.menu-li ul li:hover{
+    background:#33cdbe;
+}
+
+.menu-li ul li:hover a{
+    color:#fff;
+}
+
+.menu-li ul li:nth-child(1){
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-li ul li a{
+    text-decoration: none;
+    display: block;
+    color:#333;
+    font-size:14px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.cms-enjoy{
+    width:120px;
+    height:100%;
+    position:absolute;
+    right:0;
+    top:0;
+    border:0px solid black;
+}
+
+.cms-enjoy a{
+    position:absolute;
+    width:100%;
+    height:40px;
+    border:2px solid #33cdbe;
+    text-align: center;
+    line-height:40px;
+    color:#33cdbe;
+    border-radius: 20px;
+    right:0;
+    top:50%;
+    margin-top:-20px;
+    text-decoration: none;
+    font-family: 微软雅黑;
+}
+
+.cms-enjoy a:hover{
+    background:#33cdbe;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

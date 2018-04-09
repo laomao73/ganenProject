@@ -1,0 +1,350 @@
+/*输入数据区开始*/
+#js-input-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:100px;
+}
+
+.js-input{
+    width:960px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.js-input-title{
+    font-size:28px;
+    color:#333;
+}
+
+.js-input-action-title{
+    font-size:24px;
+    color:#333;
+    margin-top:60px;
+}
+
+.js-input-content{
+    width:100%;
+    border:0px solid black;
+    margin-top:40px;
+    position:relative;
+}
+
+.js-input-content .js-input{
+    font-size:14px;
+    color:#999;
+    margin-bottom:35px;
+    position:relative;
+}
+
+.txt{
+    border:1px solid #999;
+    width:320px;
+    padding:3px 0 3px 5px;
+}
+
+.btn{
+    width:128px;
+    height:40px;
+    border:none;
+    text-align: center;
+    line-height: 40px;
+    margin:0 20px;
+    cursor: pointer;
+}
+
+.btn:nth-child(1){
+    background:#33cdbe;
+    color:#fff;
+}
+
+.btn:nth-child(1):active{
+    background:#2fb2a5;
+    color:#fff;
+}
+
+.btn:nth-child(2){
+    background:#fff;
+    border:1px solid #999;
+}
+
+.btn:nth-child(2):active{
+    background:#ccc;
+    border:1px solid #999;
+}
+
+.city-select{
+    width:428px;
+    height:513px;
+    border:0px solid red;
+    position:absolute;
+    left:0px;
+    top:90px;
+    z-index:10;
+    background:#fff;
+    display: none;
+}
+
+.city-select-title{
+    width:100%;
+    height:35px;
+    background:#ededed;
+    position:relative;
+    overflow: hidden;
+}
+
+.city-select-title .city-title{
+    float:left;
+    margin-left:10px;
+    font-size:12px;
+    color:#000;
+    line-height: 35px;
+}
+
+.close{
+    font-size: 12px;
+    color:#5ac7ff;
+    float:right;
+    line-height: 35px;
+    margin-right:10px;
+    cursor: pointer;
+}
+
+.close:hover{
+    text-decoration: underline;
+}
+
+.city-table{
+    width:90%;
+    border:0px solid black;
+    margin:10px auto 0 auto;
+}
+
+.city-table .table-title{
+    font-size:12px;
+    width:100%;
+    height:20px;
+    line-height: 20px;
+    color:#333;
+    margin-left:10px;
+}
+
+table{
+    width:100%;
+}
+
+table tr{
+    width:100%;
+}
+
+table tr td{
+    width:40px;
+    height:20px;
+    text-align: center;
+    line-height: 20px;
+    font-size:12px;
+    color:#05b;
+    cursor: pointer;
+}
+
+/*输入数据区结束*/
+
+
+/*输出结果区开始*/
+
+#put-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:100px;
+}
+
+.put{
+    width:960px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.put-title{
+    font-size:24px;
+    color:#333;
+}
+
+.put-content{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:50px;
+    overflow: hidden;
+}
+
+.put-left,.put-right{
+    width:315px;
+    height:420px;
+    border:0px solid black;
+    position:relative;
+}
+
+.put-left{
+    float:left;
+}
+
+.put-right{
+    float:right;
+}
+
+.put-header{
+    font-size:24px;
+    color:#333;
+    text-align: center;
+}
+
+#myCanvas1{
+    margin-top:10px;
+}
+
+.put-footer,.put-footer2{
+    font-size:24px;
+    color:#333;
+    text-align: center;
+}
+
+.put-txt{
+    width:130px;
+    height:130px;
+    border:0px solid black;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-65px;
+    margin-top:-65px;
+}
+
+.put-txt p{
+    font-size:24px;
+    color:#999;
+    font-size:24px;
+    text-align: center;
+    margin:5px 0;
+}
+
+.put-rmb,.put-rmb2{
+    color:#333;
+}
+
+/*输出结果区结束*/
+
+
+/*少钱去哪开始*/
+
+#talk-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    overflow: hidden;
+}
+
+.talk{
+    width:960px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+    overflow: hidden;
+}
+
+.talk-title{
+    font-size:24px;
+    color:#333;
+}
+
+.talk-b{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:50px;
+    overflow: hidden;
+}
+
+.tale-txt-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+}
+
+.tale-txt{
+    width:960px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+    text-align: center;
+}
+
+.tale-big{
+    font-size:30px;
+    color:#333;
+}
+
+.tale-sim{
+    font-size:24px;
+    color:#999;
+}
+
+.tale-big span{
+    color:#34cdbe;
+}
+
+#call-fn-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:50px;
+}
+
+.call-fn{
+    width:1200px;
+    height:50px;
+    border:0px solid black;
+    margin:20px auto;
+    position:relative;
+}
+
+.fn{
+    display: block;
+    width:300px;
+    height:100%;
+    background:#33cdbe;
+    font-size:20px;
+    color:#fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 15px;
+    margin:0 auto;
+    position:relative;
+    text-decoration: none;
+}
+
+.fn:hover{
+    background:#33a69b;
+}
+
+#put-display{
+    display: none;
+}
+
+/*少钱去哪结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+

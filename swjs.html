@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>税务计算器</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/swjs.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="tooljs/ichart.1.2.1.min.js"></script>
+    <script src="tooljs/tool.js"></script>
+    <script src="js/swjs.js"></script>
+</head>
+<body>
+
+<!--头部导航-->
+<div id="nav-frame">
+    <div class="nav">
+        <div class="logo">
+            <img src="images/logo.png"/>
+        </div>
+        <div class="menu-box">
+            <ul class="menu-ul">
+                <li class="menu-li"><a class="link" href="index.html">首页</a></li>
+                <li class="menu-li active"><a class="link" href="swjs.html">税筹计算器</a></li>
+                <li class="menu-li select">
+                    <a class="link" href="javascript:;">企业服务</a>
+                    <ul>
+                        <li><a href="gs.html">个税宝</a></li>
+                        <li><a href="fs.html">灵活用工宝</a></li>
+                    </ul>
+                </li>
+                <li class="menu-li"><a class="link" href="tx.html">体系支撑</a></li>
+                <li class="menu-li"><a class="link" href="solvefn.html">解决方案</a></li>
+                <li class="menu-li"><a class="link" href="aboutus.html:;">关于我们</a></li>
+            </ul>
+        </div>
+        <div class="cms-enjoy">
+            <a href="javascript:;" title="操作平台暂未开放">操作平台入口</a>
+        </div>
+    </div>
+</div>
+
+<!--Banner-->
+<div id="banner-frame">
+    <img src="images/swjsbanner.png" width="100%" alt="">
+</div>
+
+<!--计算器输入部分-->
+<div id="js-input-frame">
+    <div class="js-input">
+        <h3 class="js-input-title">个人所得税计算器</h3>
+        <p class="js-input-action-title">输入数据</p>
+        <div class="js-input-content">
+            <p class="js-input">
+                <span>计算方式：</span>
+                税前月薪计算税后月薪
+                <!--<input type="radio" name="sw">&nbsp&nbsp税后月薪返推税前月薪-->
+            </p>
+            <p class="js-input">
+                城市：
+                <input type="text" class="txt" id="city">
+                <div class="city-select" id="city-select">
+                    <div class="city-select-title">
+                        <p class="city-title">城市列表</p>
+                        <p class="close" id="close">关闭</p>
+                    </div>
+                    <div class="city-table">
+                        <!--热门城市-->
+                        <p class="table-title">热门城市</p>
+                        <table>
+                            <tr>
+                                <td>北京</td>
+                                <td>上海</td>
+                                <td>广州</td>
+                                <td>深圳</td>
+                                <td>武汉</td>
+                                <td>天津</td>
+                                <td>西安</td>
+                                <td>重庆</td>
+                                <td>南京</td>
+                            </tr>
+                            <tr>
+                                <td>杭州</td>
+                                <td>成都</td>
+                            </tr>
+                        </table>
+
+                        <!--华东地区-->
+                        <p class="table-title">华东地区</p>
+                        <table>
+                            <tr>
+                                <td>上海</td>
+                                <td>南京</td>
+                                <td>苏州</td>
+                                <td>无锡</td>
+                                <td>济南</td>
+                                <td>青岛</td>
+                                <td>常州</td>
+                                <td>南通</td>
+                                <td>杭州</td>
+                            </tr>
+                            <tr>
+                                <td>宁波</td>
+                                <td>温州</td>
+                                <td>徐州</td>
+                                <td>连云港</td>
+                                <td>淮安</td>
+                                <td>盐城</td>
+                                <td>扬州</td>
+                                <td>镇江</td>
+                                <td>泰州</td>
+                            </tr>
+                            <tr>
+                                <td>威海</td>
+                                <td>嘉兴</td>
+                                <td>湖州</td>
+                                <td>绍兴</td>
+                                <td>金华</td>
+                                <td>台州</td>
+                                <td>合肥</td>
+                                <td>昆山</td>
+                                <td>张家港</td>
+                            </tr>
+                        </table>
+
+                        <!--华北东北-->
+                        <p class="table-title">华北东北</p>
+                        <table>
+                            <tr>
+                                <td>北京</td>
+                                <td>天津</td>
+                                <td>沈阳</td>
+                                <td>大连</td>
+                                <td>石家庄</td>
+                                <td>太原</td>
+                                <td>呼市</td>
+                                <td>包头</td>
+                                <td>长春</td>
+                            </tr>
+                            <tr>
+                                <td>郑州</td>
+                                <td>哈尔滨</td>
+                                <td>洛阳</td>
+                            </tr>
+                        </table>
+
+                        <!--华南华中-->
+                        <p class="table-title">华南华中</p>
+                        <table>
+                            <tr>
+                                <td>深圳</td>
+                                <td>广州</td>
+                                <td>佛山</td>
+                                <td>珠海</td>
+                                <td>惠州</td>
+                                <td>东莞</td>
+                                <td>中山</td>
+                                <td>厦门</td>
+                                <td>长沙</td>
+                            </tr>
+                            <tr>
+                                <td>福州</td>
+                                <td>泉州</td>
+                                <td>武汉</td>
+                                <td>汕头</td>
+                                <td>江门</td>
+                                <td>汕尾</td>
+                                <td>潮州</td>
+                                <td>南昌</td>
+                                <td>南宁</td>
+                            </tr>
+                            <tr>
+                                <td>海口</td>
+                            </tr>
+                        </table>
+
+                        <!--西部地区-->
+                        <p class="table-title">西部地区</p>
+                        <table>
+                            <tr>
+                                <td>重庆</td>
+                                <td>成都</td>
+                                <td>西安</td>
+                                <td>贵阳</td>
+                                <td>昆明</td>
+                                <td>拉萨</td>
+                                <td>兰州</td>
+                                <td>西宁</td>
+                                <td>银川</td>
+                            </tr>
+                            <tr>
+                                <td>乌鲁木齐</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </p>
+            <p class="js-input">
+                月薪：
+                <input type="text" class="txt" id="yx">&nbsp&nbsp适用于工资薪资所得
+            </p>
+            <!--<p>-->
+                <!--社保基数：-->
+                <!--<input type="text" class="txt" id="shebao">-->
+            <!--</p>-->
+            <!--<p>-->
+                <!--住房公积金基数：-->
+                <!--<input type="text" class="txt" id="zf">-->
+            <!--</p>-->
+            <p class="js-input">
+                <input type="button" value="计算" class="btn" id="sub">
+                <input type="button" value="重置" class="btn" id="res">
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="put-display">
+    <!--计算器输出部分-->
+    <div id="put-frame">
+        <div class="put">
+            <p class="put-title">输出结果</p>
+            <div class="put-content">
+                <div class="put-left">
+                    <p class="put-header">优化前</p>
+                    <div class="put-txt">
+                        <p>税后工资</p>
+                        <p><span class="put-rmb">0元</span></p>
+                        <p id="yhq-scale">（76%）</p>
+                    </div>
+                    <canvas id="myCanvas1" width="317" height="317"></canvas>
+                    <p class="put-footer">税前工资：0元</p>
+                </div>
+                <div class="put-right">
+                    <p class="put-header">优化后</p>
+                    <div class="put-txt">
+                        <p>税后工资</p>
+                        <p><span class="put-rmb2">0元</span></p>
+                        <p id="yhh-scale">（76%）</p>
+                    </div>
+                    <canvas id="myCanvas2" width="317" height="317"></canvas>
+                    <p class="put-footer2">税前工资：0元</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--少的钱去哪儿了-->
+    <div id="talk-frame">
+        <div class="talk">
+            <div class="talk-b">
+                <div id="cake"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--少的钱去哪儿了文字-->
+    <div class="tale-txt-frame">
+        <div class="tale-txt">
+            <p class="tale-big">
+                个人所得税扣除
+                <span class="shui-scale">1%</span>
+                <span class="shui">128.2元</span>
+            </p>
+            <p class="tale-big">
+                税后工资剩余
+                <span class="gongzi-scale">76%</span>
+                <span class="gongzi">5703.8元</span>
+            </p>
+            <p class="tale-sim">
+                养老保险金
+                <span class="yanglao-scale">8%</span>：
+                <span class="yanglao">600元</span>
+            </p>
+            <p class="tale-sim">
+                医疗保险金
+                <span class="yiliao-scale">2%</span>：
+                <span class="yiliao">153元</span>
+            </p>
+            <p class="tale-sim">
+                失业保险金
+                <span class="shiye-scale">0.2%</span>：
+                <span class="shiye">15元</span>
+            </p>
+            <p class="tale-sim">
+                住房公积金
+                <span class="zhufang-scale">12%</span>：
+                <span class="zhufang">900元</span>
+            </p>
+        </div>
+    </div>
+    <div class="call-fn">
+        <a href="callus.html" class="fn">立即获得优化方案</a>
+    </div>
+</div>
+
+
+
+
+<!--底部信息-->
+<div id="footer-frame">
+    <div class="footer">
+        <p>商务合作邮箱：LN@52ganen.com </p>
+        <p>公司地址：北京市朝阳区金海商富中心A座14层</p>
+    </div>
+</div>
+
+</body>
+</html>

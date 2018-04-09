@@ -1,0 +1,231 @@
+#banner-frame{
+    width:100%;
+    height:9.5rem;
+    border:0px solid black;
+    position:relative;
+    overflow: hidden;
+}
+
+#aboutus-frame{
+    width:100%;
+    border:0px solid black;
+    margin-top:1rem;
+    position:relative;
+}
+
+.aboutus{
+    width:15rem;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.aboutus-title-img{
+    width:0.8rem;
+    height:0.8rem;
+    background:#33cdbe;
+    transform: rotate(45deg);
+    margin:0 auto;
+}
+
+.aboutus-title{
+    font-size:0.8rem;
+    text-align: center;
+    margin-top:0.5rem;
+}
+
+.company{
+    width:100%;
+    height:8.5rem;
+    border:0px solid black;
+    margin-top:1rem;
+    position:relative;
+    overflow: hidden;
+}
+
+.company-img{
+    width:6.7rem;
+    height:100%;
+    border:0px solid black;
+    float:left;
+}
+
+.company-box{
+    width:8rem;
+    height:100%;
+    border:0px solid black;
+    float:right;
+}
+
+.company-box h3{
+    font-size:0.6rem;
+    color:#333;
+}
+
+.company-box p{
+    font-size:0.5rem;
+    color:#333;
+}
+
+#fn-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:1.5rem;
+}
+
+.fn{
+    width:15rem;
+    border:0px solid black;
+    margin:0 auto;
+}
+
+.fn-title{
+    font-size:0.7rem;
+    color:#333;
+    border-bottom:2px solid #dadada;
+    line-height: 1.2rem;
+}
+
+.fn-img-box{
+    width:100%;
+    height:7rem;
+    border:0px solid black;
+    border-radius: 0.2rem;
+    margin-top:0.5rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem #ccc;
+    overflow: hidden;
+    position:relative;
+}
+
+.fn-img-box img{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:1;
+}
+
+.fn-txt{
+    width:13rem;
+    height:4.7rem;
+    border:0px solid #fff;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-6.5rem;
+    margin-top:-2.4rem;
+    z-index:2;
+    font-size:0.5rem;
+    color:#fff;
+}
+
+#ln-frame{
+    width:100%;
+    border:0px solid black;
+    margin-top:1.5rem;
+    position:relative;
+}
+
+.ln{
+    width:15rem;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.fn-content-box{
+    width:100%;
+    height:15rem;
+    border:0px solid black;
+    margin-top:0.5rem;
+    overflow: hidden;
+}
+
+.fn-content{
+    width:7rem;
+    height:6.7rem;
+    border:1px solid #bdbdbd;
+    float:left;
+    margin:0.2rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem #bdbdbd;
+    position:relative;
+}
+
+.fn-main{
+    width:3rem;
+    border:0px solid black;
+    position:absolute;
+    left:50%;
+    margin-left:-1.5rem;
+    top:1rem;
+}
+
+.fn-main-title1{
+    width:100%;
+    height:1.2rem;
+    font-size:0.6rem;
+    color:#333;
+    text-align: right;
+    line-height: 1.2rem;
+    background: url(../ganenmoblieimages/lnimg1.png) no-repeat left top;
+    background-size: contain;
+}
+
+.fn-main-title2{
+    width:100%;
+    height:1.2rem;
+    font-size:0.6rem;
+    color:#333;
+    text-align: right;
+    line-height: 1.2rem;
+    background: url(../ganenmoblieimages/lnimg2.png) no-repeat left top;
+    background-size: contain;
+}
+
+.fn-main-title3{
+    width:100%;
+    height:1.2rem;
+    font-size:0.6rem;
+    color:#333;
+    text-align: right;
+    line-height: 1.2rem;
+    background: url(../ganenmoblieimages/lnimg3.png) no-repeat left top;
+    background-size: contain;
+}
+
+.fn-main-title4{
+    width:100%;
+    height:1.2rem;
+    font-size:0.6rem;
+    color:#333;
+    text-align: right;
+    line-height: 1.2rem;
+    background: url(../ganenmoblieimages/lnimg4.png) no-repeat left top;
+    background-size: contain;
+}
+
+.ln-txt{
+    width:5rem;
+    border:0px solid black;
+    position:absolute;
+    left:50%;
+    top:2.5rem;
+    margin-left:-2.5rem;
+}
+
+.ln-txt p{
+    font-size:0.5rem;
+    color:#333;
+    text-align: center;
+    margin-bottom:0.2rem;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,141 @@
+/*体系上半部分开始*/
+#tx-top-frame{
+    width:100%;
+    border:0px solid black;
+    margin-top:70px;
+    position:relative;
+}
+
+.tx-top{
+    width:1004px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+    overflow: hidden;
+}
+
+.tx-top-content{
+    width:180px;
+    height:370px;
+    border:0px solid black;
+    float:left;
+    margin:0 70px;
+}
+
+.tx-top-content h3{
+    margin-top:30px;
+    text-align: center;
+    font-size:18px;
+    color:#333;
+}
+
+.tx-top-content p{
+    margin-top:5px;
+    text-align: center;
+    font-size:12px;
+    color:#999;
+}
+
+/*体系上半部分结束*/
+
+
+/*体系中间部分开始*/
+
+#tx-middle-frame{
+    width:100%;
+    border:0px solid black;
+    margin-top:90px;
+    position:relative;
+}
+
+.tx-middle-six{
+    width:910px;
+    height:445px;
+    border:0px solid #ccc;
+    position:absolute;
+    bottom:-224px;
+    left:50%;
+    margin-left:-455px;
+    overflow: hidden;
+}
+
+.tx-six{
+    width:300px;
+    height:220px;
+    border:0px solid black;
+    background:#fff;
+    float:left;
+}
+
+.tx-six h3{
+    font-size:18px;
+    color:#333;
+    text-align: center;
+    margin-top:40px;
+}
+
+.tx-six div{
+    margin-top:25px;
+    border:0px solid black;
+    text-align: center;
+    font-size:12px;
+    color:#999;
+}
+
+.tx-six div p{
+    margin-top:10px;
+}
+
+/*体系中间部分结束*/
+
+
+/*体系底部部分开始*/
+
+#tx-bottom-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:370px;
+}
+
+.tx-bottom{
+    width:1200px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.tx-bottom h3{
+    font-size:32px;
+    color:#333;
+    text-align: center;
+}
+
+.tx-bottom div{
+    margin-top:80px;
+}
+
+.tx-bottom div p{
+    font-size:24px;
+    color:#333;
+    margin-bottom:40px;
+    text-align: center;
+}
+
+/*体系底部部分结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

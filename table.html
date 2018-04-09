@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <link rel="stylesheet" href="tooljs/bootstrap.min.css">
+    <!--<script src="tooljs/bootstrap.min.js"></script>-->
+    <script src="tooljs/vue.min.js"></script>
+    <script src="tooljs/vue-resource.min.js"></script>
+    <title>预留信息查询页</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            list-style: none;
+        }
+
+        body{
+            text-align: center;
+        }
+    </style>
+    <script>
+        window.onload = function(){
+            //http://www.52ganen.com/weiXin/user/get.do
+            var table = new Vue({
+                el:'#table',
+                data:{
+                    company:'',
+                    username:'',
+                    tel:'',
+                    arr:''
+                },
+                filters:{
+                    timer:function(input){
+                        var oDate = new Date();
+                        oDate.setTime(input);
+
+                        var oY = oDate.getFullYear();
+                        var oM = oDate.getMonth()+1;
+                        var oD = oDate.getDate();
+
+                        var h = oDate.getHours();
+                        var m = oDate.getMinutes();
+                        var s = oDate.getSeconds();
+
+                        return oY+'-'+oM+'-'+oD+' '+h+':'+m+':'+s;
+                    }
+                },
+                created:function(){
+                    this.$http.get('http://www.52ganen.com/weiXin/user/get.do').then(function(res){
+                        var json = eval('('+res.bodyText+')');
+
+                        if(json.list == '失败'){
+                            window.location.href = 'http://www.52ganen.com/login.html';
+                        }else{
+                            var arr = json.list;
+                            this.arr = arr;
+                        }
+                    },function(){
+
+                    });
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+
+<h3>预留信息查询页</h3>
+<table id="table" class="table table-bordered">
+    <tr>
+        <th>公司名称</th>
+        <th>客户姓名</th>
+        <th>联系方式</th>
+        <th>预留时间</th>
+    </tr>
+    <tr v-for="item in arr">
+        <td>{{item.company}}</td>
+        <td>{{item.userName}}</td>
+        <td>{{item.tel}}</td>
+        <td>{{item.time | timer}}</td>
+    </tr>
+</table>
+
+</body>
+</html>

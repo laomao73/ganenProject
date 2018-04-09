@@ -1,0 +1,145 @@
+#banner-frame{
+    width:100%;
+    height:9.5rem;
+    border:0px solid black;
+    position:relative;
+    overflow: hidden;
+}
+
+#finish-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:1rem;
+}
+
+.finish{
+    width:15rem;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.finish-title{
+    font-size:0.7rem;
+    color:#333;
+    text-align: center;
+    margin-top:0.5rem;
+}
+
+.finish-content{
+    width:100%;
+    height:7.3rem;
+    border:0px solid black;
+    margin-top:1rem;
+    position:relative;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    box-shadow: 0.2rem 0.2rem 0.2rem #ccc;
+}
+
+.finish-content img{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:2;
+}
+
+.finish-content-txt-box{
+    width:14rem;
+    height:6rem;
+    border:0px solid red;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-7rem;
+    margin-top:-3rem;
+    z-index:5;
+    font-size:0.5rem;
+    color:#fff;
+}
+
+.finish-content-txt-title{
+    text-indent: 2em;
+}
+
+.finish-content-txt-left{
+    width:5rem;
+    height:3.2rem;
+    position:absolute;
+    left:0;
+    bottom:0;
+    border:0px solid yellow;
+}
+
+.finish-content-txt-left p{
+    margin: 0.2rem 0 0.2rem 0;
+}
+
+.finish-content-txt-center{
+    width:2px;
+    height:3.2rem;
+    background:#33cdbe;
+    position:absolute;
+    bottom:0;
+    left:5rem;
+    transform: rotate(25deg);
+}
+
+.finish-content-txt-right{
+    width:8rem;
+    height:3.2rem;
+    position:absolute;
+    right:0;
+    bottom:0;
+    border:0px solid yellow;
+}
+
+.finish-content-txt-right p{
+    margin-bottom:0.2rem;
+}
+
+.dector-fn{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:1rem;
+}
+
+.dector-title{
+    font-size:0.7rem;
+    color:#333;
+    text-align: center;
+}
+
+.dector-txt{
+    font-size:0.5rem;
+    color:#333;
+    margin-top:1rem;
+    text-indent: 2em;
+}
+
+#more{
+    font-size:0.6rem;
+    color:#333;
+    text-align: center;
+    margin-top:1rem;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

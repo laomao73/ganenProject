@@ -1,0 +1,23 @@
+微信后台
+      1.登录接口
+		http://www.52ganen.com/weiXin/user/login.do?username=xxx&password=xxx
+	参数值: username-用户名 password-密码
+	提交方式: POST
+	返回结果 1. ?username=&password=
+		    {"result":"登录失败","resean":"请输入用户名"}
+		 2. ?username=xxx&password=
+		    {"result":"登录失败","resean":"请输入密码"}
+		 3. ?username=xxxs&password=xxx
+		    {"result":"登陆失败","resean":"用户名或密码输入错误"}
+		 4. ?username=闪电&password=ganen123456
+		    {"result":"登陆成功"}
+      2.获取全部数据接口
+		http://www.52ganen.com/weiXin/user/get.do
+	返回结果 1.没登录
+	            {"list":"失败"}
+		 2.已登录
+		    {"list":[{"id":2,"company":"感恩有你","userName":"徐宇恒","tel":"15125205746","time":1520412071992},{...},{...}]}
+
+       2.添加
+		http://www.52ganen.com/weiXin/user/add.do?company=xx&userName=xx&tel=xx
+	返回结果
