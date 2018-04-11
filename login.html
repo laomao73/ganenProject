@@ -24,7 +24,7 @@
                         }).then(function(res){
                             var json = eval('('+res.bodyText+')');
                             if(json.result == '登陆成功'){
-                                window.location.href = 'http://www.52ganen.com/table.html'
+                                window.location.href = 'http://www.52ganen.com/table.html';
                             }else{
                                 alert(json.result);
                                 this.username = '';

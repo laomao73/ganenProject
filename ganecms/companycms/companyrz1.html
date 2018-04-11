@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>认证页面</title>
+    <link rel="stylesheet" href="css/companyrz1.css">
+    <script src="../../tooljs/jquery.min.js"></script>
+    <script src="../../tooljs/vue.min.js"></script>
+    <script src="../../tooljs/vue-resource.min.js"></script>
+    <script>
+        function imgPreview(fileDom){
+            //判断是否支持FileReader
+            if (window.FileReader) {
+                var reader = new FileReader();
+            } else {
+                alert("您的设备不支持图片预览功能，如需该功能请升级您的设备！");
+            }
+
+            //获取文件
+            var file = fileDom.files[0];
+            var imageType = /^image\//;
+            //是否是图片
+            if (!imageType.test(file.type)) {
+                alert("请选择图片！");
+                return;
+            }
+            //读取完成
+            reader.onload = function(e) {
+                //获取图片dom
+                var img = document.getElementById("preview");
+                //图片路径设置为读取的图片
+                img.src = e.target.result;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        $(function(){
+            $('#preview').click(function(){
+                $('.file').trigger('click');
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div id="companyrz1-frame">
+    <h3 class="rz1-title">实名认证</h3>
+    <div class="rz-bu-img">
+        <div class="bu-ball active">1</div>
+        <div class="bu-line"></div>
+        <div class="bu-ball">2</div>
+        <div class="bu-line"></div>
+        <div class="bu-ball">3</div>
+    </div>
+    <div class="rz-bu-txt">
+        <p>单位信息</p>
+        <p>法人代表</p>
+        <p>完成</p>
+    </div>
+    <div class="rz1-msg">
+        <div class="rz1-line">
+            <div class="rz1-txt">企业全称：</div>
+            <div class="rz1-input">
+                <input class="txt" type="text" placeholder="请输入企业全称（营业执照注册名为准）">
+            </div>
+        </div>
+        <div class="rz1-line">
+            <div class="rz1-txt">统一社会信用代码：</div>
+            <div class="rz1-input">
+                <input class="txt" type="text" placeholder="统一社会信用代码">
+            </div>
+        </div>
+        <div class="rz1-line" style="height:180px;">
+            <div class="rz1-txt">营业执照副本扫描件：</div>
+            <div class="rz1-input">
+                <div class="preview-box">
+                    <img src="images/addimg.png" id="preview" width="100%">
+                </div>
+                <input class="file" type="file" name="file" onchange="imgPreview(this)" />
+            </div>
+        </div>
+        <a href="javascript:;" class="next">下一步</a>
+    </div>
+</div>
+
+</body>
+</html>

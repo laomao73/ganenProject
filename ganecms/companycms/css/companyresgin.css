@@ -9,56 +9,69 @@ body{
     background-size: cover;
 }
 
-#login-frame{
+#resgin-frame{
     width:600px;
-    height:300px;
+    height:400px;
     background:#fff;
     position:absolute;
     left:50%;
     top:50%;
     margin-left:-300px;
-    margin-top:-200px;
+    margin-top:-250px;
     text-align: center;
     padding:50px 0 50px 0;
 }
 
-#login-frame h3{
+#resgin-frame h3{
     font-size:24px;
     color:#333;
 }
 
-#login-frame input{
+.company-name,.user-name,.user-tel,.password{
+    border:1px solid #ccc;
     width:300px;
     height:40px;
-    border:1px solid #ccc;
-    margin:20px 0 10px 0;
+    margin:10px 0 10px 0;
     padding-left:10px;
 }
 
-.forgot-pass,.login-link{
-    text-decoration: none;
-    font-size:18px;
-    color:#333;
-    margin:20px 10px 0 10px;
+.check-number{
+    width:200px;
+    height:40px;
+    border:1px solid #ccc;
+    margin:10px 0 10px 0;
+    padding-left:10px;
 }
 
-.forgot-pass:hover,.login-link:hover{
-    text-decoration: underline;
-    color:blue;
-}
-
-.login-btn{
-    display: block;
-    width:300px;
+.get-check-number{
+    width:95px;
     height:40px;
     background:#4c5d7b;
-    font-size:24px;
+    border:none;
     color:#fff;
+    cursor: pointer;
+}
+
+.get-check-number:active{
+    background:#3c495e;
+}
+
+.resgin-btn{
+    width:310px;
+    height:40px;
+    background:#4c5d7b;
     text-align: center;
     line-height: 40px;
+    color:#fff;
+    display: block;
     text-decoration: none;
-    margin:20px auto 0 auto;
+    margin:0 auto;
     border-radius: 10px;
+    margin-top:5px;
+}
+
+.resgin-btn:active{
+    background:#3c495e;
 }
 
 .back-pc{
@@ -67,21 +80,12 @@ body{
     position:absolute;
     left:50%;
     margin-left:-32px;
-    top:15%;
+    top:10%;
 }
 
 .back-pc:hover{
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
-
 
 
 
