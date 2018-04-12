@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>企业平台操作业</title>
+    <link rel="stylesheet" href="css/companyframe.css">
+    <script src="../../tooljs/tool.js"></script>
+    <script src="../../tooljs/jquery.min.js"></script>
+    <script src="../../tooljs/vue.min.js"></script>
+    <script src="../../tooljs/vue-resource.min.js"></script>
+    <script>
+        window.onload = function(){
+            iFrame('.iframe');
+        };
+    </script>
+</head>
+<body>
+
+<!--头部栏-->
+<div id="header-frame">
+    <div class="logo">
+        <img src="images/logo.png" width="100%" alt="">
+    </div>
+    <div class="username-box">
+        <div class="icon-box"></div>
+        <p class="username">用户名</p>
+    </div>
+</div>
+
+<!--侧边栏-->
+<div id="side-frame">
+    <div class="side">
+        <ul class="side-ul">
+            <li class="side-li active">
+                企业信息
+            </li>
+            <li class="side-li">
+                订单管理
+            </li>
+            <li class="side-li">
+                账号设置
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--主内容栏-->
+<div id="main-frame">
+    <iframe class="iframe" src="" frameborder="0" scrolling="no"></iframe>
+</div>
+
+</body>
+</html>

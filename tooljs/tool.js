@@ -46,3 +46,16 @@ function terminalMoblie(){
     }
 }
 
+//iframe调式
+function iFrame(obj){
+    var oFrame = document.querySelector(obj);
+    var oWinFrame = oFrame.contentWindow;
+
+    console.log(oWinFrame.document.body);
+
+    if(oWinFrame.document.body){
+        console.log(oWinFrame.document.body.clientHeight);
+        oFrame.style.height = oWinFrame.document.body.clientHeight+'px';
+    }
+}
+
