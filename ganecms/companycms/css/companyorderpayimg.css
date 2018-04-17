@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+
+#orderpayimg-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+}
+
+.orderpayimg{
+    width:1200px;
+    border:0px solid black;
+    margin:0 auto;
+}
+
+.orderpayimg-title{
+    font-size:30px;
+    text-align: center;
+}
+
+.orderpayimg-upload-img{
+    width:300px;
+    margin:50px auto 0 auto;
+    border:0px solid black;
+    cursor: pointer;
+}
+
+.file{
+    opacity: 0;
+}
+
+.upload{
+    display: block;
+    width:300px;
+    height:50px;
+    background:#4c5d7b;
+    font-size:24px;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    margin:50px auto 0 auto;
+}
+
+.upload:active{
+    background:#323d50;
+}

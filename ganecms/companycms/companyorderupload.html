@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传薪酬明细表</title>
+    <link rel="stylesheet" href="css/companyorderupload.css">
+    <script src="../../tooljs/jquery.min.js"></script>
+    <script src="../../tooljs/vue.min.js"></script>
+    <script src="../../tooljs/vue-resource.min.js"></script>
+    <script>
+        $(function(){
+            $('.category-option').each(function(index){
+                $(this).click(function(){
+                    $('.category-option').removeClass('active').eq(index).addClass('active');
+                    $('.complate-table-tab').removeClass('active').eq(index).addClass('active');
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+
+<!--上传薪酬明细表-->
+<div id="order-upload-frame">
+    <div class="order-upload">
+        <h3 class="order-upload-title">您正在创建订单</h3>
+        <div class="order-bc-box">
+            <img src="images/bc.png" width="100%" alt="">
+        </div>
+        <div class="category">
+            <p class="category-txt">发放人员类别：</p>
+            <p class="category-option active">灵活用工</p>
+            <p class="category-option">企业用工</p>
+        </div>
+
+        <!--选项卡一-->
+        <div class="complate-table-tab active">
+            <!--完善薪酬明细表-->
+            <div class="complate-table">
+                <h3 class="complate-table-title">完善薪酬明细表</h3>
+                <div class="complate-table-down-box">
+                    <img class="excelimg" src="images/excelimg.png" alt="">
+                    <div class="down-txt">
+                        <a class="down-link" href="javascript:;">下载模板</a>
+                        <p class="down-warning">您需要下载薪酬明细表，才能上传</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--上传薪酬明细表-->
+            <div class="complate-table">
+                <h3 class="complate-table-title">上传薪酬明细表</h3>
+                <div class="complate-table-down-box">
+                    <div class="uploading-box">
+                        <img class="uploadimg" src="images/uploadimg.png" alt="">
+                    </div>
+                    <!--<a class="upload-btn" href="javascript:;">点击上传</a>-->
+                    <input class="file-btn" type="file" name="file" >
+                </div>
+                <div class="radio-option-box">
+                    <p class="radio-txt">承担个人所得税：</p>
+                    <p class="radio-option">
+                        <input type="radio" checked="true" name="shui">企业
+                        <input type="radio" name="shui">个人
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--选项卡二-->
+        <div class="complate-table-tab">
+            <!--完善薪酬明细表-->
+            <div class="complate-table">
+                <h3 class="complate-table-title">完善薪酬明细表</h3>
+                <div class="complate-table-down-box">
+                    <img class="excelimg" src="images/excelimg.png" alt="">
+                    <div class="down-txt">
+                        <a class="down-link" href="javascript:;">下载模板</a>
+                        <p class="down-warning">您需要下载薪酬明细表，才能上传</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--上传薪酬明细表-->
+            <div class="complate-table">
+                <h3 class="complate-table-title">上传薪酬明细表</h3>
+                <div class="complate-table-down-box">
+                    <div class="uploading-box">
+                        <img class="uploadimg" src="images/uploadimg.png" alt="">
+                    </div>
+                    <!--<a class="upload-btn" href="javascript:;">点击上传</a>-->
+                    <input class="file-btn" type="file" name="file" >
+                </div>
+                <div class="radio-option-box">
+                    <p class="radio-txt">承担个人所得税：</p>
+                    <p class="radio-option">
+                        <input type="radio" checked="true" name="shui">企业
+                        <input type="radio" name="shui">个人
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="upload-btn-box">
+            <a href="companyordercheck.html" class="next">下一步</a>
+            <a href="companyorder.html" class="cancel">取消</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

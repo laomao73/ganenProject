@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>企业平台操作业</title>
+    <title>企业平台操作页</title>
     <link rel="stylesheet" href="css/companyframe.css">
     <script src="../../tooljs/tool.js"></script>
     <script src="../../tooljs/jquery.min.js"></script>
@@ -10,7 +10,38 @@
     <script src="../../tooljs/vue-resource.min.js"></script>
     <script>
         window.onload = function(){
-            iFrame('.iframe');
+            function iFrame(){
+                var oFrame = document.querySelector('.iframe');
+                var oWinFrame = oFrame.contentWindow;
+
+                //console.log(oWinFrame.document.body);
+
+                if(oWinFrame.document.body){
+                    //console.log(oWinFrame.document.body.scrollHeight);
+                    oFrame.style.height = oWinFrame.document.body.clientHeight+'px';
+                }
+            }
+
+            iFrame();
+
+            window.setInterval(iFrame,200);
+
+            // $('#frame').attr('src','companymsg.html');
+
+            $('.side-li').each(function(index){
+                $(this).click(function(){
+                    $('.side-li').removeClass('active');
+                    $(this).addClass('active');
+                    switch(index){
+                        case 0:
+                            $('.iframe').attr('src','companymsg.html');
+                            break;
+                        case 1:
+                            $('.iframe').attr('src','companyorder.html');
+                            break;
+                    }
+                });
+            });
         };
     </script>
 </head>
@@ -31,7 +62,7 @@
 <div id="side-frame">
     <div class="side">
         <ul class="side-ul">
-            <li class="side-li active">
+            <li class="side-li">
                 企业信息
             </li>
             <li class="side-li">
@@ -46,7 +77,7 @@
 
 <!--主内容栏-->
 <div id="main-frame">
-    <iframe class="iframe" src="" frameborder="0" scrolling="no"></iframe>
+    <iframe id="iframe" class="iframe" src="companymsg.html" frameborder="0" scrolling="no"></iframe>
 </div>
 
 </body>

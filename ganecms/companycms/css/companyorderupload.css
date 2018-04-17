@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+
+#order-upload-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+}
+
+.order-upload{
+    width:1200px;
+    border:0px solid black;
+    position:relative;
+    margin:0 auto;
+}
+
+.order-upload-title{
+    font-size:18px;
+    color:#333;
+    border-left:4px solid #4c5d7b;
+    text-indent: 1em;
+}
+
+.order-bc-box{
+    width:535px;
+    height:95px;
+    border:0px solid black;
+    margin:30px auto 0 auto;
+}
+
+.category{
+    width:100%;
+    border:0px solid black;
+    overflow: hidden;
+    position:relative;
+    margin-top:50px;
+}
+
+.category p{
+    font-size:18px;
+    color:#333;
+    float:left;
+    margin-right:50px;
+    height:30px;
+}
+
+.category-option:hover{
+    cursor: pointer;
+}
+
+.category-option.active{
+    border-bottom: 2px solid #4c5d7b;
+}
+
+.complate-table{
+    width:1120px;
+    height:150px;
+    border:1px solid #4c5d7b;
+    margin-top:50px;
+    position:relative;
+    padding:40px;
+}
+
+.complate-table-title{
+    font-size:18px;
+    color:#333;
+    border-left:4px solid #4c5d7b;
+    text-indent: 1em;
+}
+
+.complate-table-down-box{
+    width:100%;
+    overflow: hidden;
+    border:0px solid red;
+    margin-top:40px;
+}
+
+.excelimg{
+    float:left;
+}
+
+.down-txt{
+    width:230px;
+    height:64px;
+    border:0px solid blue;
+    float:left;
+    margin-left:20px;
+}
+
+.down-link{
+    font-size:18px;
+    color:#4c5d7b;
+    display: block;
+}
+
+.down-warning{
+    font-size:14px;
+    color:#999;
+    margin-top:20px;
+}
+
+.uploading-box{
+    width:67px;
+    height:47px;
+    float:left;
+}
+
+.upload-btn{
+    font-size:18px;
+    color:#4c5d7b;
+    line-height: 46px;
+    margin-left:10px;
+}
+
+.file-btn{
+    font-size:18px;
+    color:#4c5d7b;
+    line-height: 46px;
+    margin-left:10px;
+}
+
+.radio-option-box{
+    width:100%;
+    border:0px solid black;
+    margin-top:40px;
+    overflow: hidden;
+}
+
+.radio-option-box p{
+    font-size:18px;
+    float:left;
+    color:#333;
+}
+
+.radio-option{
+    margin-left:50px;
+}
+
+.radio-option input{
+    margin:0 20px;
+}
+
+.upload-btn-box{
+    width:880px;
+    height:50px;
+    border:0px solid black;
+    margin:20px auto 20px auto;
+    text-align: center;
+    padding:20px 0;
+}
+
+.upload-btn-box a{
+    display: inline-block;
+    margin:0 25px;
+}
+
+.next{
+    width:300px;
+    height:100%;
+    background:#4c5d7b;
+    font-size:24px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color:#fff;
+    border-radius: 5px;
+}
+
+.next:active{
+    background:#374358;
+}
+
+.cancel{
+    width:300px;
+    height:100%;
+    background:#fff;
+    border:2px solid #4c5d7b;
+    font-size:24px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color:#4c5d7b;
+    border-radius: 5px;
+}
+
+.complate-table-tab{
+    display: none;
+}
+
+.complate-table-tab.active{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>确认发放明细</title>
+    <link rel="stylesheet" href="css/companyorderconfirm.css">
+    <script src="../../tooljs/jquery.min.js"></script>
+    <script src="../../tooljs/vue.min.js"></script>
+    <script src="../../tooljs/vue-resource.min.js"></script>
+</head>
+<body>
+
+<!--确认发放明细-->
+<div id="confirm-frame">
+    <div class="confirm">
+        <h3 class="confirm-title">您正在创建订单</h3>
+        <div class="bc-box">
+            <img class="bc-img" src="images/bc3.png" width="100%" alt="">
+        </div>
+
+        <!--确认发放明细功能区-->
+        <div class="confirm-fn-box">
+            <div class="confirm-fn">
+                <span>账户名称</span>
+                <input type="text">
+            </div>
+            <div class="confirm-fn">
+                <span>银行卡号</span>
+                <input type="text">
+            </div>
+            <div class="confirm-fn">
+                <span>手机号</span>
+                <input type="text">
+            </div>
+            <div class="confirm-fn-select">
+                <a class="confirm-chack" href="javascript:;">查询</a>
+                <a class="confirm-clear" href="javascript:;">清空所有条件</a>
+            </div>
+        </div>
+
+        <!--发放明细头-->
+        <h3 class="confirm-send-title">发放明细</h3>
+
+        <!--发放明细表格-->
+        <div class="confirm-send-table">
+            <table>
+                <tr>
+                    <th>服务公司名称</th>
+                    <th>收款方账户名称</th>
+                    <th>应发金额</th>
+                    <th>个人所得税</th>
+                    <th>实发金额</th>
+                </tr>
+                <tr>
+                    <td>服务公司A</td>
+                    <td>张晓华</td>
+                    <td>￥<span>15000</span></td>
+                    <td>￥<span>700</span></td>
+                    <td>￥<span>14299</span></td>
+                </tr>
+                <tr>
+                    <td>服务公司B</td>
+                    <td>张晓华</td>
+                    <td>￥<span>15000</span></td>
+                    <td>￥<span>700</span></td>
+                    <td>￥<span>14299</span></td>
+                </tr>
+                <tr>
+                    <td>服务公司C</td>
+                    <td>张晓华</td>
+                    <td>￥<span>15000</span></td>
+                    <td>￥<span>700</span></td>
+                    <td>￥<span>14299</span></td>
+                </tr>
+            </table>
+        </div>
+
+        <!--服务明细-->
+        <div class="confirm-service-table">
+            <h3 class="confirm-service-title">服务明细</h3>
+            <div class="confirm-service-table-box">
+                <table>
+                    <tr>
+                        <th>甲方公司</th>
+                        <th>甲方税号</th>
+                        <th>地址电话</th>
+                        <th>开户账号</th>
+                        <th>实发金额</th>
+                        <th>个税</th>
+                        <th>付款总额</th>
+                        <th>乙方公司</th>
+                        <th>乙方账号</th>
+                        <th>乙方开户行</th>
+                        <th>发票类型</th>
+                        <th>发票类目</th>
+                    </tr>
+                    <tr>
+                        <td>A公司A公司A公司A公司A公司A公司A公司A公司A公司</td>
+                        <td>A公司A公司A公司A公司A公司A公司A公司A公司A公司</td>
+                        <td>123A公司A公司A公司A公司A公司A公司A公司</td>
+                        <td>123A公司A公司A公司A公司A公司A公司A公司</td>
+                        <td>￥<span>14299</span></td>
+                        <td>123A公司A公司A公司A公司A公司</td>
+                        <td>123A公司A公司A公司A公司</td>
+                        <td>123A公司A公司A公司</td>
+                        <td>123A公司A公司A公司A公司A公司</td>
+                        <td>123A公司A公司A公司A公司</td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">请选择</option>
+                                <option value=""></option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">请选择</option>
+                                <option value=""></option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>A公司A公司A公司A公司A公司A公司A公司A公司A公司</td>
+                        <td>A公司A公司A公司A公司A公司A公司A公司A公司A公司</td>
+                        <td>123A公司A公司A公司A公司A公司A公司A公司</td>
+                        <td>123A公司A公司A公司A公司A公司A公司A公司</td>
+                        <td>￥<span>14299</span></td>
+                        <td>123A公司A公司A公司A公司A公司</td>
+                        <td>123A公司A公司A公司A公司</td>
+                        <td>123A公司A公司A公司</td>
+                        <td>123A公司A公司A公司A公司A公司</td>
+                        <td>123A公司A公司A公司A公司</td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">请选择</option>
+                                <option value=""></option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">请选择</option>
+                                <option value=""></option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>A公司A公司A公司A公司A公司A公司A公司A公司A公司</td>
+                        <td>A公司A公司A公司A公司A公司A公司A公司A公司A公司</td>
+                        <td>123A公司A公司A公司A公司A公司A公司A公司</td>
+                        <td>123A公司A公司A公司A公司A公司A公司A公司</td>
+                        <td>￥<span>14299</span></td>
+                        <td>123A公司A公司A公司A公司A公司</td>
+                        <td>123A公司A公司A公司A公司</td>
+                        <td>123A公司A公司A公司</td>
+                        <td>123A公司A公司A公司A公司A公司</td>
+                        <td>123A公司A公司A公司A公司</td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">请选择</option>
+                                <option value=""></option>
+                            </select>
+                        </td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">请选择</option>
+                                <option value=""></option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!--提交订单区域-->
+        <div class="send-btn-box">
+            <a href="companyordercomplate.html" class="send">提交订单</a>
+            <a href="companyorder.html" class="cancel">取消</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

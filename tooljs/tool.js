@@ -47,15 +47,22 @@ function terminalMoblie(){
 }
 
 //iframe调式
-function iFrame(obj){
-    var oFrame = document.querySelector(obj);
-    var oWinFrame = oFrame.contentWindow;
+// function iFrame(obj){
+//     var oFrame = document.querySelector(obj);
+//     var oWinFrame = oFrame.contentWindow;
+//
+//     console.log(oWinFrame.document.body);
+//
+//     if(oWinFrame.document.body){
+//         console.log(oWinFrame.document.body.scrollHeight);
+//         oFrame.style.height = oWinFrame.document.body.clientHeight+'px';
+//     }
+// }
 
-    console.log(oWinFrame.document.body);
-
-    if(oWinFrame.document.body){
-        console.log(oWinFrame.document.body.clientHeight);
-        oFrame.style.height = oWinFrame.document.body.clientHeight+'px';
-    }
+//遮罩层属性设置
+function maskSet(obj){
+    var maskSet = document.getElementById(obj);
+    maskSet.style.width = document.documentElement.clientWidth+'px';
+    maskSet.style.height = document.documentElement.clientHeight+'px';
 }
 

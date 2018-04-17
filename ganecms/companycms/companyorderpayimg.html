@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传打款截图</title>
+    <link rel="stylesheet" href="css/companyorderpayimg.css">
+    <script src="../../tooljs/jquery.min.js"></script>
+    <script src="../../tooljs/vue.min.js"></script>
+    <script src="../../tooljs/vue-resource.min.js"></script>
+    <script>
+        function imgPreview(fileDom){
+            //判断是否支持FileReader
+            if (window.FileReader) {
+                var reader = new FileReader();
+            } else {
+                alert("您的设备不支持图片预览功能，如需该功能请升级您的设备！");
+            }
+
+            //获取文件
+            var file = fileDom.files[0];
+            var imageType = /^image\//;
+            //是否是图片
+            if (!imageType.test(file.type)) {
+                alert("请选择图片！");
+                return;
+            }
+            //读取完成
+            reader.onload = function(e) {
+                //获取图片dom
+                var img = document.getElementById("preview");
+                //图片路径设置为读取的图片
+                img.src = e.target.result;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        $(function(){
+            $('#preview').click(function(){
+                $('.file').trigger('click');
+            });
+        });
+    </script>
+</head>
+<body>
+
+<!--上传打款截图-->
+<div id="orderpayimg-frame">
+    <div class="orderpayimg">
+        <p class="orderpayimg-title">上传打款截图</p>
+        <div class="orderpayimg-upload-img">
+            <img src="images/addimg.png" id="preview" width="100%">
+            <input class="file" type="file" name="file" onchange="imgPreview(this)" />
+        </div>
+        <a class="upload" href="javascript:;">上传</a>
+    </div>
+</div>
+
+</body>
+</html>
