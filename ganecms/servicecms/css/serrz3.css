@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+
+#companyrz1-frame{
+    width:1000px;
+    height:700px;
+    border:0px solid black;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-500px;
+    margin-top:-350px;
+}
+
+.rz1-title{
+    font-size:24px;
+    color:#333;
+    border-left:5px solid #3a9be0;
+    text-indent: 1em;
+}
+
+.rz-bu-img{
+    width:720px;
+    height:60px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+    margin-top:30px;
+    overflow: hidden;
+}
+
+.rz-bu-txt{
+    width:780px;
+    height:60px;
+    border:0px solid black;
+    overflow: hidden;
+    margin:0 auto;
+    position:relative;
+    margin-top:10px;
+}
+
+.rz-bu-txt p{
+    font-size:24px;
+    color:#333;
+    float:left;
+}
+
+.rz-bu-txt p:nth-child(1){
+    margin-left:10px;
+}
+
+.rz-bu-txt p:nth-child(2){
+    margin-left:215px;
+}
+
+.rz-bu-txt p:nth-child(3){
+    margin-left:240px;
+}
+
+.bu-ball{
+    width:50px;
+    height:50px;
+    border:5px solid #3a9be0;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size:30px;
+    float:left;
+}
+
+.bu-ball.active{
+    background:#3a9be0;
+    color:#fff;
+}
+
+.bu-line{
+    float:left;
+    width:220px;
+    height:5px;
+    background:#3a9be0;
+    margin-top:25px;
+    margin:25px 15px 0 15px;
+}
+
+.rz1-msg{
+    width:770px;
+    border:0px solid red;
+    margin:0 auto;
+    position:relative;
+}
+
+.rz-complate-box{
+    width:560px;
+    height:260px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+    text-align: center;
+    font-size:20px;
+}
+
+.rz-complate-box p,.rz-complate-box a{
+    margin:15px 0 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

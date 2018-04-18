@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+
+#serorder-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+}
+
+.serorder{
+    width:1200px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.send-title{
+    font-size:18px;
+    border-left:4px solid #3a9be0;
+    text-indent: 1em;
+}
+
+.send-table{
+    width:100%;
+    border:0px solid black;
+    margin:50px 0;
+}
+
+.send-table table{
+    border:1px solid #909090;
+    border-collapse: collapse;
+}
+
+.send-table table th{
+    border:1px solid #909090;
+    border-collapse: collapse;
+    width:150px;
+    height:50px;
+    font-size:12px;
+    background:#e2e5ea;
+}
+
+.send-table table td{
+    font-size:12px;
+    height:50px;
+    border:1px solid #909090;
+    text-align: center;
+}
+
+.ht-down{
+    font-size:12px;
+    color:#3a9be0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

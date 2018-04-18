@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-family: 微软雅黑;
+}
+
+#companyselect-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+}
+
+.companyselect{
+    width:390px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.big-title{
+    font-size:18px;
+    color:#333;
+    text-align: center;
+}
+
+.little-title{
+    border-left:3px solid #3a9be0;
+    font-size:14px;
+    text-indent: 1em;
+    color:#333;
+    margin-top:20px;
+}
+
+.kpmsg-box{
+    width:100%;
+    border:0px solid black;
+    margin-top:20px;
+}
+
+.kpmsg{
+    width:100%;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.kp-txt1{
+    width:120px;
+    height:25px;
+    border:0px solid black;
+    font-size:12px;
+    color:#333;
+    text-align: center;
+    line-height: 25px;
+}
+
+.kp-txt2{
+    width:270px;
+    height:25px;
+    border:0px solid black;
+    font-size:12px;
+    line-height: 25px;
+}
+
+.checked-btn{
+    display: block;
+    width:300px;
+    height:50px;
+    background:#3a9be0;
+    text-align: center;
+    line-height: 50px;
+    font-size:24px;
+    color:#fff;
+    text-decoration: none;
+    margin:40px auto 0 auto;
+    border-radius: 5px;
+}
+
+.checked-btn:active{
+    background:#2b74a8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

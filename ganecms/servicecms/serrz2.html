@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>认证页面</title>
-    <link rel="stylesheet" href="css/companyrz1.css">
+    <title>服务公司认证</title>
+    <link rel="stylesheet" href="css/serrz2.css">
     <script src="../../tooljs/jquery.min.js"></script>
     <script src="../../tooljs/vue.min.js"></script>
     <script src="../../tooljs/vue-resource.min.js"></script>
@@ -43,14 +43,13 @@
 </head>
 <body>
 
-<!--企业认证第一步-->
-
+<!--服务公司认证第二步-->
 <div id="companyrz1-frame">
     <h3 class="rz1-title">实名认证</h3>
     <div class="rz-bu-img">
         <div class="bu-ball active">1</div>
         <div class="bu-line"></div>
-        <div class="bu-ball">2</div>
+        <div class="bu-ball active">2</div>
         <div class="bu-line"></div>
         <div class="bu-ball">3</div>
     </div>
@@ -61,19 +60,25 @@
     </div>
     <div class="rz1-msg">
         <div class="rz1-line">
-            <div class="rz1-txt">企业全称：</div>
+            <div class="rz1-txt">法定代表人姓名：</div>
             <div class="rz1-input">
-                <input class="txt" type="text" placeholder="请输入企业全称（营业执照注册名为准）">
+                <input class="txt" type="text" placeholder="法定代表人姓名">
             </div>
         </div>
         <div class="rz1-line">
-            <div class="rz1-txt">统一社会信用代码：</div>
+            <div class="rz1-txt">法定代表人电话：</div>
             <div class="rz1-input">
-                <input class="txt" type="text" placeholder="统一社会信用代码">
+                <input class="txt" type="text" placeholder="法定代表人电话">
             </div>
         </div>
-        <div class="rz1-line" style="height:180px;">
-            <div class="rz1-txt">营业执照副本扫描件：</div>
+        <div class="rz1-line">
+            <div class="rz1-txt">法定代表人身份证号码：</div>
+            <div class="rz1-input">
+                <input class="txt" type="text" placeholder="法定代表人身份证号码">
+            </div>
+        </div>
+        <div class="rz1-line" style="height:180px;margin-bottom:10px;">
+            <div class="rz1-txt" style="text-align: center">上传身份证证件照<br/>（正反面请打印到一张纸）</div>
             <div class="rz1-input">
                 <div class="preview-box">
                     <img src="images/addimg.png" id="preview" width="100%">

@@ -61,19 +61,19 @@
     font-size:14px;
     text-align: center;
     line-height: 25px;
-    background:#4c5d7b;
+    background:#3a9be0;
     color:#fff;
     text-decoration: none;
 }
 
 .select-btn:active{
-    background:#2f3a4c;
+    background:#296997;
 }
 
 .select-clear{
     float:right;
     font-size:14px;
-    color:#4c5d7b;
+    color:#3a9be0;
     text-decoration: none;
     height:25px;
     line-height: 25px;

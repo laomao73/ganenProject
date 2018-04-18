@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+
+body{
+    background:url(../images/serbg.png) no-repeat;
+    background-size: cover;
+}
+
+#checkpass-frame{
+    width:600px;
+    height:300px;
+    background:#fff;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-300px;
+    margin-top:-150px;
+    padding:20px 0 20px 0;
+    text-align: center;
+}
+
+#checkpass-frame h3{
+    font-size:24px;
+    color:#333;
+}
+
+.tel{
+    width:350px;
+    height:35px;
+    border:1px solid #ccc;
+    text-indent: 1em;
+    margin-top:30px;
+}
+
+.check-number{
+    margin-top:30px;
+    margin-left:124px;
+    width:200px;
+    height:35px;
+    border:1px solid #ccc;
+    text-indent: 1em;
+    float:left;
+}
+
+.get-check-number{
+    display: block;
+    width:100px;
+    height:35px;
+    float:right;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    background:#3a9be0;
+    color:#fff;
+    margin-top:30px;
+    margin-right:124px;
+}
+
+.get-check-number:active{
+    background:#2970a2;
+}
+
+.next{
+    display: block;
+    width:350px;
+    height:35px;
+    background:#3a9be0;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    color:#fff;
+    margin:100px auto 0 auto;
+    border-radius: 10px;
+}
+
+.next:active{
+    background:#2970a2;
+}
+
+.back-pc{
+    position:absolute;
+    text-decoration: none;
+    color:#fff;
+    left:50%;
+    top:15%;
+    margin-left:-32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

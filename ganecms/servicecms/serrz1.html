@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>认证页面</title>
-    <link rel="stylesheet" href="css/companyrz1.css">
+    <title>服务公司认证</title>
+    <link rel="stylesheet" href="css/serrz1.css">
     <script src="../../tooljs/jquery.min.js"></script>
     <script src="../../tooljs/vue.min.js"></script>
     <script src="../../tooljs/vue-resource.min.js"></script>
@@ -43,7 +43,7 @@
 </head>
 <body>
 
-<!--企业认证第一步-->
+<!--服务公司认证第一步-->
 
 <div id="companyrz1-frame">
     <h3 class="rz1-title">实名认证</h3>
@@ -79,6 +79,35 @@
                     <img src="images/addimg.png" id="preview" width="100%">
                 </div>
                 <input class="file" type="file" name="file" onchange="imgPreview(this)" />
+            </div>
+        </div>
+        <div class="rz1-line">
+            <div class="rz1-txt">服务公司行业：</div>
+            <div class="rz1-input">
+                <input class="txt" type="text" placeholder="请输入服务公司行业">
+            </div>
+        </div>
+        <div class="rz1-line">
+            <div class="rz1-txt">发票类目：</div>
+            <div class="rz1-input">
+                <input class="txt" type="text" placeholder="请输入发票类目">
+            </div>
+        </div>
+        <div class="rz1-line">
+            <div class="rz1-txt">发票类型：</div>
+            <div class="rz1-checkbox">
+                <input type="checkbox" value="增值税专用发票3%">&nbsp&nbsp增值税专用发票3%
+                <input type="checkbox" value="增值税普通发票3%">&nbsp&nbsp增值税普通发票3%
+                <input type="checkbox" value="增值税专用发票6%">&nbsp&nbsp增值税专用发票6%
+                <input type="checkbox" value="增值税普通发票6%">&nbsp&nbsp增值税普通发票6%
+            </div>
+        </div>
+        <div class="rz1-line">
+            <div class="rz1-txt">服务人员属性：</div>
+            <div class="rz1-checkbox">
+                <input type="radio" name="fn" checked="true">&nbsp&nbsp灵活用工
+                <input type="radio" name="fn">&nbsp&nbsp企业用工
+                <input type="radio" name="fn">&nbsp&nbsp两者均可
             </div>
         </div>
         <a href="javascript:;" class="next">下一步</a>

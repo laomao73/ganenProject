@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+body{
+    background:url(../images/serbg.png) no-repeat;
+    background-size: cover;
+}
+
+#resgin-frame{
+    width:600px;
+    height:500px;
+    background:#fff;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-300px;
+    margin-top:-250px;
+    text-align: center;
+    padding:50px 0 50px 0;
+}
+
+#resgin-frame h3{
+    font-size:24px;
+    color:#333;
+}
+
+.company-name,.user-name,.user-tel,.password{
+    border:1px solid #ccc;
+    width:300px;
+    height:40px;
+    margin:10px 0 10px 0;
+    padding-left:10px;
+}
+
+.check-number{
+    width:200px;
+    height:40px;
+    border:1px solid #ccc;
+    margin:10px 0 10px 0;
+    padding-left:10px;
+}
+
+.get-check-number{
+    width:95px;
+    height:40px;
+    background:#3a9be0;
+    border:none;
+    color:#fff;
+    cursor: pointer;
+}
+
+.get-check-number:active{
+    background:#2e76aa;
+}
+
+.resgin-btn{
+    width:310px;
+    height:40px;
+    background:#3a9be0;
+    text-align: center;
+    line-height: 40px;
+    color:#fff;
+    display: block;
+    text-decoration: none;
+    margin:0 auto;
+    border-radius: 10px;
+    margin-top:5px;
+}
+
+.resgin-btn:active{
+    background:#2e76aa;
+}
+
+.back-pc{
+    text-decoration: none;
+    color:#fff;
+    position:absolute;
+    left:50%;
+    margin-left:-32px;
+    top:10%;
+}
+
+.back-pc:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
