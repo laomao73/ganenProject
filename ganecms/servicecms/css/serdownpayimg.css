@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+
+#downpayimg-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+}
+
+.downpayimg{
+    width:1200px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.payimg-box{
+    width:250px;
+    height:250px;
+    margin:0 auto;
+    position:relative;
+    border:1px solid #909090;
+}
+
+.down-btn{
+    display: block;
+    width:300px;
+    height:50px;
+    background:#3a9be0;
+    font-size:24px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color:#fff;
+    border-radius: 5px;
+    margin:50px auto;
+}
