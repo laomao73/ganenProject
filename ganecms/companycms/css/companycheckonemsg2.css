@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+
+#checkonemsg-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+}
+
+.checkonemsg{
+    width:1200px;
+    border:0px solid black;
+    margin:0 auto;
+}
+
+.checkonemsg-title{
+    font-size:18px;
+    text-align: center;
+}
+
+.checkonemsg-content{
+    width:560px;
+    height:380px;
+    border:0px solid black;
+    margin:50px auto 0 auto;
+    position:relative;
+}
+
+.msg-name{
+    width:150px;
+    height:40px;
+    text-align: center;
+    font-size:12px;
+    line-height: 25px;
+}
+
+.msg-area{
+    width:390px;
+    height:25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.msg-area input{
+    width:390px;
+    height:25px;
+    border:1px solid #ccc;
+}
+
+.save{
+    display: block;
+    text-decoration: none;
+    width:300px;
+    height:50px;
+    background:#4c5d7b;
+    font-size:24px;
+    color:#fff;
+    text-align: center;
+    line-height: 50px;
+    margin:0 auto;
+    position:relative;
+    border-radius: 5px;
+}
+
+.save:active{
+    background:#272e3b;
+}
+
+
+
+
+
+
+
+
+
