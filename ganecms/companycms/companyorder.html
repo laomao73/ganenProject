@@ -25,12 +25,11 @@
             <div class="order-fn-area1">
                 <span class="area1-txt">订单状态</span>
                 <select name="" id="order-state">
-                    <option value="">待确认</option>
-                    <option value="">待支付</option>
                     <option value="">执行中</option>
                     <option value="">发放中</option>
-                    <option value="">修改中</option>
-                    <option value="">已完成</option>
+                    <option value="">部份发放失败</option>
+                    <option value="">发放失败</option>
+                    <option value="">已发放</option>
                 </select>
             </div>
             <div class="order-fn-area1">
@@ -70,10 +69,21 @@
                     <td>123456</td>
                     <td>1500000</td>
                     <td>2018-04-16 11:19:23</td>
-                    <td>待确认</td>
+                    <td>执行中</td>
                     <td>
                         <!--根据状态动态改变链接-->
                         <a href="companyordergoing.html">查看详情</a>
+                        <!--<a href="companyordererror.html">查看详情</a>-->
+                    </td>
+                </tr>
+                <tr>
+                    <td>123456</td>
+                    <td>1500000</td>
+                    <td>2018-04-16 11:19:23</td>
+                    <td>部份发放失败</td>
+                    <td>
+                        <!--根据状态动态改变链接-->
+                        <a href="companyordererror.html">查看详情</a>
                         <!--<a href="companyordererror.html">查看详情</a>-->
                     </td>
                 </tr>

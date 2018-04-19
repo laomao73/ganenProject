@@ -61,19 +61,19 @@
     font-size:14px;
     text-align: center;
     line-height: 25px;
-    background:#4c5d7b;
+    background:#3a9be0;
     color:#fff;
     text-decoration: none;
 }
 
 .select-btn:active{
-    background:#2f3a4c;
+    background:#296997;
 }
 
 .select-clear{
     float:right;
     font-size:14px;
-    color:#4c5d7b;
+    color:#3a9be0;
     text-decoration: none;
     height:25px;
     line-height: 25px;
@@ -84,7 +84,7 @@
 }
 
 .company-order2{
-    width:1200px;
+    width:1230px;
     border:0px solid black;
     position:relative;
     margin:50px auto 0 auto;
@@ -96,7 +96,7 @@
     float:left;
     width:100px;
     height:25px;
-    background:#4c5d7b;
+    background:#3a9be0;
     font-size:14px;
     text-align: center;
     line-height: 25px;
@@ -109,7 +109,7 @@
     float:right;
     width:100px;
     height:25px;
-    background:#4c5d7b;
+    background:#3a9be0;
     font-size:14px;
     text-align: center;
     line-height: 25px;
@@ -157,6 +157,7 @@
 .company-order4 table tr th,.company-order4 table tr td{
     border:1px solid #909090;
     border-collapse: collapse;
+    font-size:12px;
 }
 
 .company-order4 table tr th{
@@ -164,10 +165,12 @@
     border:1px solid #909090;
     border-collapse: collapse;
     background:#e2e5ea;
+    font-size:12px;
 }
 .company-order4 table tr td{
     height:50px;
     text-align: center;
+    font-size:12px;
 }
 
 
