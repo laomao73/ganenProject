@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+
+#company-order-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+}
+
+.company-order-box{
+    width:1200px;
+    margin:0 auto;
+    position:relative;
+}
+
+.company-order1{
+    width:1200px;
+    border:0px solid black;
+    position:relative;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.order-fn-area1{
+    width:260px;
+    height:30px;
+    border:0px solid red;
+    position:relative;
+    float:left;
+    margin:0 25px;
+    overflow: hidden;
+}
+
+.order-fn-area2{
+    width:200px;
+    height:30px;
+    border:0px solid red;
+    position:relative;
+    float:right;
+    margin:0 25px;
+    overflow: hidden;
+}
+
+.area1-txt{
+    font-size:12px;
+}
+
+.area1-input{
+    width:170px;
+    height:25px;
+    border:1px solid #ccc;
+    float:right;
+}
+
+#order-state{
+    width:170px;
+    height:25px;
+    border:1px solid #ccc;
+    float:right;
+}
+
+.select-btn{
+    display: block;
+    width:60px;
+    height:25px;
+    float:left;
+    font-size:14px;
+    text-align: center;
+    line-height: 25px;
+    background:#3da4a0;
+    color:#fff;
+    text-decoration: none;
+}
+
+.select-btn:active{
+    background:#2f3a4c;
+}
+
+.select-clear{
+    float:right;
+    font-size:14px;
+    color:#3da4a0;
+    text-decoration: none;
+    height:25px;
+    line-height: 25px;
+}
+
+#order-going-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+}
+
+.order-going{
+    width:1200px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.order-send-title{
+    font-size:18px;
+    color:#333;
+    border-left:4px solid #3da4a0;
+    text-indent: 1em;
+}
+
+.putout-btn{
+    display: block;
+    width:100px;
+    height:35px;
+    background:#3da4a0;
+    color:#fff;
+    font-size:14px;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    margin-top:50px;
+}
+
+.send-table{
+    width:100%;
+    border:0px solid black;
+    margin:50px 0;
+}
+
+.send-table table{
+    border:1px solid #909090;
+    border-collapse: collapse;
+}
+
+.send-table table th{
+    border:1px solid #909090;
+    border-collapse: collapse;
+    width:150px;
+    height:50px;
+    font-size:12px;
+    background:#e2e5ea;
+}
+
+.send-table table td{
+    font-size:12px;
+    height:50px;
+    border:1px solid #909090;
+    text-align: center;
+}
+
+.service-table table{
+    border:1px solid #909090;
+    border-collapse: collapse;
+}
+
+.service-table table th{
+    border:1px solid #909090;
+    border-collapse: collapse;
+    width:85px;
+    height:50px;
+    background:#e2e5ea;
+    font-size:12px;
+}
+
+.service-table table td{
+    height:50px;
+    font-size:12px;
+    border:1px solid #909090;
+    text-align: center;
+}
+
+.service-title{
+    font-size:18px;
+    color:#333;
+    border-left:4px solid #3da4a0;
+    text-indent: 1em;
+    margin-top:50px;
+}
+
+.service-table{
+    width:100%;
+    margin-top:50px;
+}
+
+.back-btn{
+    display: block;
+    width:100%;
+    height:35px;
+    text-align: center;
+    font-size:24px;
+    line-height: 35px;
+    margin-top:50px;
+    padding:50px 0;
+    color:#3a9be0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

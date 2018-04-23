@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>审核信息</title>
+    <link rel="stylesheet" href="css/basemsgex.css">
+    <script src="../../tooljs/jquery.min.js"></script>
+    <script src="../../tooljs/vue.min.js"></script>
+    <script src="../../tooljs/vue-resource.min.js"></script>
+    <script>
+        $(function(){
+           $('.ex-btn').each(function(index){
+               $(window).attr('href','basemsgex.html');
+
+               $(this).click(function(){
+                    $('.ex-btn').removeClass('active').eq(index).addClass('active');
+                    $('.ex-tab').removeClass('active').eq(index).addClass('active');
+               });
+           }) ;
+        });
+    </script>
+</head>
+<body>
+
+<!--审核信息-->
+<div id="ex-frame">
+    <div class="ex">
+        <!--选项卡按钮区-->
+        <div class="ex-btn-box">
+            <a class="ex-btn active" href="javascript:;">企业</a>
+            <a class="ex-btn" href="javascript:;">服务公司</a>
+        </div>
+
+        <!--选项卡一-->
+        <div class="ex-tab active">
+            <div class="ex-fn-box">
+                <div class="ex-search-box">
+                    企业名称：
+                    <input type="text" class="txt">
+                </div>
+                <div class="ex-search-box">
+                    审核状态：
+                    <select name="" class="txt">
+                        <option value="审核成功">审核成功</option>
+                        <option value="审核中">审核中</option>
+                        <option value="审核失败">审核失败</option>
+                    </select>
+                </div>
+                <div class="ex-search-box">
+                    <a href="javascript:;" class="search-btn">查询</a>
+                    <a href="javascript:;" class="clear">清空所有条件</a>
+                </div>
+            </div>
+            <div class="table-box">
+                <table>
+                    <tr>
+                        <th>序号</th>
+                        <th>企业名称</th>
+                        <th>审核状态</th>
+                        <th>操作</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>公司A</td>
+                        <td>审核成功</td>
+                        <td>
+                            <a href="exing.html" class="more">详情</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="btn-box">
+                <a href="javascript:;" class="prev">上一页</a>
+                <a href="javascript:;" class="btn active">1</a>
+                <a href="javascript:;" class="btn">2</a>
+                <a href="javascript:;" class="btn">3</a>
+                <a href="javascript:;" class="next">下一页</a>
+            </div>
+        </div>
+
+        <!--选项卡二-->
+        <div class="ex-tab">
+            <div class="ex-fn-box">
+                <div class="ex-search-box">
+                    企业名称：
+                    <input type="text" class="txt">
+                </div>
+                <div class="ex-search-box">
+                    审核状态：
+                    <select name="" class="txt">
+                        <option value="审核成功">审核成功</option>
+                        <option value="审核中">审核中</option>
+                        <option value="审核失败">审核失败</option>
+                    </select>
+                </div>
+                <div class="ex-search-box">
+                    <a href="javascript:;" class="search-btn">查询</a>
+                    <a href="javascript:;" class="clear">清空所有条件</a>
+                </div>
+            </div>
+            <div class="table-box">
+                <table>
+                    <tr>
+                        <th>序号</th>
+                        <th>企业名称</th>
+                        <th>审核状态</th>
+                        <th>操作</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>公司A</td>
+                        <td>审核失败</td>
+                        <td>
+                            <a href="exing.html" class="more">详情</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="btn-box">
+                <a href="javascript:;" class="prev">上一页</a>
+                <a href="javascript:;" class="btn active">1</a>
+                <a href="javascript:;" class="btn">2</a>
+                <a href="javascript:;" class="btn">3</a>
+                <a href="javascript:;" class="next">下一页</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

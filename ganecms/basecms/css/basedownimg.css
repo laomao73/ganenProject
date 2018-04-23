@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+
+#downpayimg-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+}
+
+.downpayimg{
+    width:1200px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.img-box{
+    width:260px;
+    height:260px;
+    border:2px dashed #ccc;
+    margin:0 auto;
+}
+
+.btn-box{
+    width:100%;
+    border:0px solid black;
+    margin-top:200px;
+    position:relative;
+    text-align: center;
+}
+
+.btn-box a{
+    display: inline-block;
+    width:300px;
+    height:50px;
+    border:2px solid #3da4a0;
+    text-decoration: none;
+    font-size:24px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    margin:0 20px;
+}
+
+.down-btn{
+    background:#3da4a0;
+    color:#fff;
+}
+
+.down-btn:active{
+    background:#328582;
+}
+
+.back{
+    color:#3da4a0;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

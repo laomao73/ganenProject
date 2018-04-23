@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>感恩有你平台主架构</title>
+    <link rel="stylesheet" href="css/caseframe.css">
+    <script src="../../tooljs/jquery.min.js"></script>
+    <script src="../../tooljs/vue.min.js"></script>
+    <script src="../../tooljs/vue-resource.min.js"></script>
+    <script>
+        window.onload = function(){
+            function iFrame(){
+                var oFrame = document.querySelector('.iframe');
+                var oWinFrame = oFrame.contentWindow;
+
+                //console.log(oWinFrame.document.body);
+
+                if(oWinFrame.document.body){
+                    //console.log(oWinFrame.document.body.scrollHeight);
+                    oFrame.style.height = oWinFrame.document.body.clientHeight+'px';
+                }
+            }
+
+            iFrame();
+
+            window.setInterval(iFrame,200);
+
+            // $('#frame').attr('src','companymsg.html');
+
+            $('.side-li').each(function(index){
+                $(this).click(function(){
+                    $('.side-li').removeClass('active');
+                    $(this).addClass('active');
+                    switch(index){
+                        case 0:
+                            $('.iframe').attr('src','basemsgex.html');
+                            break;
+                        case 1:
+                            $('.iframe').attr('src','baseorder.html');
+                            break;
+                        case 2:
+                            $('.iframe').attr('src','basecompanymsg.html');
+                            break;
+                        case 3:
+                            $('.iframe').attr('src','basesermsg.html');
+                            break;
+                        case 4:
+                            $('.iframe').attr('src','basemailmsg.html');
+                            break;
+                    }
+                });
+            });
+        };
+    </script>
+</head>
+<body>
+
+<!--头部栏-->
+<div id="header-frame">
+    <div class="logo">
+        <img src="images/logo.png" width="100%" alt="">
+    </div>
+    <div class="username-box">
+        <div class="icon-box"></div>
+        <p class="username">用户名</p>
+    </div>
+</div>
+
+<!--侧边栏-->
+<div id="side-frame">
+    <div class="side">
+        <ul class="side-ul">
+            <li class="side-li">
+                审核信息
+            </li>
+            <li class="side-li">
+                订单信息
+            </li>
+            <li class="side-li">
+                企业信息
+            </li>
+            <li class="side-li">
+                服务信息
+            </li>
+            <li class="side-li">
+                邮寄记录
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--主内容栏-->
+<div id="main-frame">
+    <iframe id="iframe" class="iframe" src="basemsgex.html" frameborder="0" scrolling="no"></iframe>
+</div>
+
+
+</body>
+</html>

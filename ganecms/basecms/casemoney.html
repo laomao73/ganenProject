@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单信息发放</title>
+    <link rel="stylesheet" href="css/casemoney.css">
+    <script src="../../tooljs/jquery.min.js"></script>
+    <script src="../../tooljs/vue.min.js"></script>
+    <script src="../../tooljs/vue-resource.min.js"></script>
+</head>
+<body>
+
+<!--订单信息发放-->
+<div id="money-frame">
+    <div class="money">
+        <!--可以发放-->
+        <div class="money-success-box">
+            <table>
+                <tr>
+                    <th>收款方账户名称</th>
+                    <th>证件号</th>
+                    <th>银行账号</th>
+                    <th>开户银行全称</th>
+                    <th>开户行识别号</th>
+                    <th>金额</th>
+                    <th>员工手机号</th>
+                </tr>
+                <tr>
+                    <td>大白兔</td>
+                    <td>110106589745632569</td>
+                    <td>68882655545236589</td>
+                    <td>中国工商银行苹果园分行</td>
+                    <td>65231457895632456896</td>
+                    <td>￥<span>50000000</span></td>
+                    <td>13366800988</td>
+                </tr>
+            </table>
+            <a href="javascript:;" class="send-btn">点击发放工资</a>
+        </div>
+
+        <!--未完成电子签不能发放-->
+        <div class="money-error-box">
+            <p class="error-txt">以下人员还未完成电子签，需完全电子签操作后才能发放</p>
+            <table>
+                <tr>
+                    <th>收款方账户名称</th>
+                    <th>证件号</th>
+                    <th>银行账号</th>
+                    <th>开户银行全称</th>
+                    <th>开户行识别号</th>
+                    <th>金额</th>
+                    <th>员工手机号</th>
+                </tr>
+                <tr>
+                    <td>大白兔</td>
+                    <td>110106589745632569</td>
+                    <td>68882655545236589</td>
+                    <td>中国工商银行苹果园分行</td>
+                    <td>65231457895632456896</td>
+                    <td>￥<span>50000000</span></td>
+                    <td>13366800988</td>
+                </tr>
+            </table>
+            <a href="javascript:;" class="send-btn">点击发送电子签短信</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

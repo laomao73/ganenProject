@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+
+#money-frame{
+    width:100%;
+    border:0px solid black;
+}
+
+.money{
+    width:1200px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.money-success-box{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+}
+
+.money-success-box table,.money-error-box table{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+.money-success-box table th,.money-error-box table th{
+    width:171px;
+    height:50px;
+    background:#e2e5ea;
+    font-size:12px;
+    border:1px solid #909090;
+}
+
+.money-success-box table td,.money-error-box table td{
+    height:50px;
+    font-size:12px;
+    text-align: center;
+    border:1px solid #909090;
+}
+
+.send-btn{
+    display: block;
+    width:300px;
+    height:50px;
+    background:#3da4a0;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size:24px;
+    color:#fff;
+    border-radius: 5px;
+    margin:40px auto;
+}
+
+.send-btn:active{
+    background:#296f6c;
+}
+
+.money-error-box{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+}
+
+.error-txt{
+    font-size:12px;
+    color:#999;
+    padding:10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

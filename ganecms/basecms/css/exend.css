@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+
+#msg-frame{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+}
+
+.msg{
+    width:560px;
+    border:0px solid black;
+    margin:0 auto;
+    position:relative;
+}
+
+.msg-title{
+    font-size:16px;
+    text-align: center;
+    color:#333;
+}
+
+.msg-content{
+    width:100%;
+    border:0px solid red;
+    position:relative;
+    margin-top:10px;
+}
+
+.msg-content table td{
+    height:30px;
+    font-size:12px;
+}
+
+.msg-content table .txt{
+    width:200px;
+    text-align: right;
+}
+
+.msg-content table .content{
+    width:350px;
+    height:30px;
+    text-align: center;
+}
+
+.img-box{
+    width:150px;
+    height:120px;
+    border:2px dashed #ccc;
+    margin:0 auto;
+    cursor: pointer;
+}
+
+.img-box2{
+    width:150px;
+    height:120px;
+    border:2px dashed #ccc;
+    float:left;
+    margin:0 10px;
+    cursor: pointer;
+}
+
+.btn-box{
+    width:100%;
+    border:0px solid black;
+    position:relative;
+    margin-top:50px;
+    text-align: center;
+}
+
+.btn-box a{
+    display: inline-block;
+    width:250px;
+    height:50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size:20px;
+    border-radius: 5px;
+}
+
+.success{
+    background:#3da4a0;
+    border:2px solid #3da4a0;
+    color:#fff;
+}
+
+.success:active{
+    background:#2b7471;
+}
+
+.error{
+    background:#fff;
+    color:#3da4a0;
+    border:2px solid #3da4a0;
+}
+
+#mask{
+    background:rgba(0,0,0,0.8);
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:10;
+    display: none;
+}
+
+#alert-window{
+    width:600px;
+    height:600px;
+    background:#fff;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-300px;
+    margin-top:-300px;
+    z-index:20;
+    display: none;
+}
+
+.close{
+    position:absolute;
+    right:10px;
+    top:10px;
+    font-size:14px;
+    text-decoration: none;
+    color:#3da4a0;
+}
+
+.bigimg-box{
+    width:500px;
+    height:500px;
+    border:2px dashed #ccc;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-250px;
+    margin-top:-250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

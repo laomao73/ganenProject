@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>感恩有你订单信息</title>
+    <link rel="stylesheet" href="css/baseorder.css">
+    <script src="../../tooljs/jquery.min.js"></script>
+    <script src="../../tooljs/vue.min.js"></script>
+    <script src="../../tooljs/vue-resource.min.js"></script>
+</head>
+<body>
+
+<!--感恩有你订单信息-->
+<div id="company-order-frame">
+    <div class="company-order-box">
+        <!--条件筛选查询功能区-->
+        <div class="company-order1">
+            <div class="order-fn-area1">
+                <span class="area1-txt">订单号</span>
+                <input type="text" class="area1-input">
+            </div>
+            <div class="order-fn-area1">
+                <span class="area1-txt">企业名称</span>
+                <input type="text" class="area1-input">
+            </div>
+            <div class="order-fn-area1">
+                <span class="area1-txt">订单状态</span>
+                <select name="" id="order-state">
+                    <option value="">执行中</option>
+                    <option value="">发放中</option>
+                    <option value="">部份发放失败</option>
+                    <option value="">发放失败</option>
+                    <option value="">已完成</option>
+                </select>
+            </div>
+            <div class="order-fn-area1">
+                <a href="javascript:;" class="select-btn">查询</a>
+                <a href="javascript:;" class="select-clear">清空所有条件</a>
+            </div>
+        </div>
+
+        <!--订单区-无-->
+        <div class="company-order3" style="display: none;">
+            <p>暂无订单，请点击新建订单按钮创建</p>
+        </div>
+
+        <!--订单区-表格-->
+        <div class="company-order4">
+            <table>
+                <tr>
+                    <th class="th-little">订单号</th>
+                    <th class="th-little">企业名称</th>
+                    <th class="th-big">订单金额</th>
+                    <th class="th-big">订单时间</th>
+                    <th class="th-big">服务人数</th>
+                    <th class="th-little">订单状态</th>
+                    <th class="th-little">查看详情</th>
+                    <th class="th-little">发放操作</th>
+                </tr>
+                <tr>
+                    <td>2018041866</td>
+                    <td>北京感恩有你数字科技有限公司</td>
+                    <td>50000000</td>
+                    <td>2018-04-18 17:39:28</td>
+                    <td>20</td>
+                    <td>执行中</td>
+                    <td>
+                        <a href="baseordergoing.html">查看详情</a>
+                    </td>
+                    <td>
+                        <a href="casemoney.html">发放</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!--分页区-->
+        <div class="page-btn-box">
+            <a href="javascript:;" class="prev">上一页</a>
+            <a href="javascript:;" class="page-btn active">1</a>
+            <a href="javascript:;" class="page-btn">2</a>
+            <a href="javascript:;" class="page-btn">3</a>
+            <a href="javascript:;" class="page-btn">4</a>
+            <a href="javascript:;" class="page-btn">5</a>
+            <a href="javascript:;" class="page-btn">6</a>
+            <a href="javascript:;" class="next">下一页</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

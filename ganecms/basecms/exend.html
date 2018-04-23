@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>审核完成查看</title>
+    <link rel="stylesheet" href="css/exend.css">
+    <script src="../../tooljs/jquery.min.js"></script>
+    <script src="../../tooljs/vue.min.js"></script>
+    <script src="../../tooljs/vue-resource.min.js"></script>
+    <script>
+        $(function(){
+            $('#mask').css('width',$(window).width());
+            $('#mask').css('height',$(window).height());
+        });
+    </script>
+</head>
+<body>
+<!--审核完成查看-->
+<div id="msg-frame">
+    <div class="msg">
+        <p class="msg-title">某某公司企业A信息</p>
+        <div class="msg-content">
+            <table>
+                <tr>
+                    <td class="txt">企业全称：</td>
+                    <td class="content">北京感恩有你数字科技有限公司</td>
+                </tr>
+                <tr>
+                    <td class="txt">手机号：</td>
+                    <td class="content">13366800988</td>
+                </tr>
+                <tr>
+                    <td class="txt">联系人：</td>
+                    <td class="content">大白兔</td>
+                </tr>
+                <tr>
+                    <td class="txt">统一社会信息代码证：</td>
+                    <td class="content">9888988868886888588</td>
+                </tr>
+                <tr>
+                    <td class="txt">营业执照副本扫描件：</td>
+                    <td class="content">
+                        <div class="img-box">
+                            <img src="" alt="">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="txt">法人代表姓名：</td>
+                    <td class="content">老猫</td>
+                </tr>
+                <tr>
+                    <td class="txt">法人代表电话：</td>
+                    <td class="content">13366800988</td>
+                </tr>
+                <tr>
+                    <td class="txt">法人代表身份证号码：</td>
+                    <td class="content">110505698452132569</td>
+                </tr>
+                <tr>
+                    <td class="txt">身份证证件照：</td>
+                    <td class="content">
+                        <div class="img-box2">
+                            <img src="" alt="">
+                        </div>
+                        <div class="img-box2">
+                            <img src="" alt="">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="btn-box">
+            <a href="basemsgex.html" class="success">返回</a>
+        </div>
+    </div>
+</div>
+
+<!--遮罩层-->
+<div id="mask"></div>
+
+<!--弹出层-->
+<div id="alert-window">
+    <a href="javascript:;" class="close">关闭</a>
+    <div class="bigimg-box">
+        <img src="" width="100%" alt="">
+    </div>
+</div>
+
+</body>
+</html>
