@@ -7,21 +7,85 @@
     <script src="../../tooljs/jquery.min.js"></script>
     <script src="../../tooljs/vue.min.js"></script>
     <script src="../../tooljs/vue-resource.min.js"></script>
+    <script>
+        $(function(){
+            var resgin = new Vue({
+                el:'#resgin-frame',
+                data:{
+                    companyName:'',
+                    contactsName:'',
+                    contactsPhone:'',
+                    contactsPwd:'',
+                    code:'',
+                    timeStr:'获取验证码',
+                    disabled:false
+                },
+                methods:{
+                    getCode:function(){ //获取验证码
+                        this.$http.get('http://www.52ganen.com/ganen-pc/public/sendNumber.do',{
+                            params:{
+                                contactsPhone:this.contactsPhone
+                            }
+                        }).then(function(res){
+                            var bodyText = eval('('+res.bodyText+')');
+                            console.log(res);
+                            this.disabled = true;
+                            var num = 60;
+                            var that = this;
+                            var timer = setInterval(function(){
+                                num--;
+                                that.timeStr = '重新发送('+num+')';
+                                if(num<=0){
+                                    clearInterval(timer);
+                                    that.timeStr = '获取验证码';
+                                    that.disabled = false;
+                                }
+                            },1000);
+                        },function(res){
+                            alert('发送验证码出现错误');
+                            return;
+                        });
+                    },
+                    resgin:function(){  //点击注册
+                        this.$http.post('http://www.52ganen.com/ganen-pc/public/register.do',{
+                            type:1,
+                            companyName:this.companyName,
+                            contactsName:this.contactsName,
+                            contactsPhone:this.contactsPhone,
+                            contactsPwd:this.contactsPwd,
+                            code:this.code
+                        },{
+                            emulateJSON:true,
+                            //credentials: true,
+                            withCredentials: true
+                        }).then(function(res){
+                            console.log(res);
+                            var bodyText = eval('('+res.bodyText+')');
+                            //alert(bodyText.result);
+                            //$(window).attr('location','companylogin.html');
+                        },function(res){
+                            alert('注册失败');
+                            return;
+                        })
+                    }
+                }
+            });
+        });
+    </script>
 </head>
 <body>
-
-<a href="javascript:;" class="back-pc">返回官网</a>
+<a href="../../index.html" class="back-pc">返回官网</a>
 
 <!--注册-->
 <div id="resgin-frame">
     <h3>企业账号注册</h3>
-    <input type="text" class="company-name" placeholder="请输入公司名称">
-    <input type="text" class="user-name" placeholder="请输入您的姓名">
-    <input type="text" class="user-tel" placeholder="请输入您的手机号"><br/>
-    <input type="text" class="check-number" placeholder="请输入手机验证码">
-    <input type="button" class="get-check-number" value="获取验证码"><br/>
-    <input type="password" class="password" placeholder="请输入密码">
-    <a href="javascript:;" class="resgin-btn">注册</a>
+    <input type="text" class="company-name" v-model="companyName" placeholder="请输入公司名称">
+    <input type="text" class="user-name" v-model="contactsName" placeholder="请输入您的姓名">
+    <input type="text" class="user-tel" v-model="contactsPhone" placeholder="请输入您的手机号"><br/>
+    <input type="text" class="check-number" v-model="code" placeholder="请输入手机验证码">
+    <button class="get-check-number" @click="getCode()" :disabled="disabled" v-text="timeStr"></button><br/>
+    <input type="password" class="password" v-model="contactsPwd" placeholder="请输入密码">
+    <a href="javascript:;" class="resgin-btn" @click="resgin()">注册</a>
 </div>
 
 </body>

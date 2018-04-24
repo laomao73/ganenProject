@@ -2,39 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96ecd6d8-7525-43e6-a39a-5188f237c0c0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/basecompanymsg.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/basedownimg.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/basedownpayimg.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/baseframe.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/basemailmsg.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/basemsgex.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/baseorder.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/baseordergoing.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/basesermsg.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/casemoney.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/css/basecompanymsg.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/css/basedownimg.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/css/basedownpayimg.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/css/basemailmsg.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/css/basemsgex.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/css/baseorder.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/css/baseordergoing.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/css/basesermsg.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/css/caseframe.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/css/casemoney.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/css/exend.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/css/exing.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/exend.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/exing.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/images/addimg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/images/downimgsuccess.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/images/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/images/noadd.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/images/serbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/basecms/images/usericon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/companycms/companyxuan.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/companycms/css/companyxuan.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/companycms/test.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ganecms/companycms/test2.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ganecms/basecms/baselogin.html" afterPath="$PROJECT_DIR$/ganecms/basecms/baselogin.html" />
-      <change beforePath="$PROJECT_DIR$/ganecms/basecms/css/baselogin.css" afterPath="$PROJECT_DIR$/ganecms/basecms/css/baselogin.css" />
+      <change beforePath="$PROJECT_DIR$/ganecms/companycms/companylogin.html" afterPath="$PROJECT_DIR$/ganecms/companycms/companylogin.html" />
+      <change beforePath="$PROJECT_DIR$/ganecms/companycms/companyresgin.html" afterPath="$PROJECT_DIR$/ganecms/companycms/companyresgin.html" />
+      <change beforePath="$PROJECT_DIR$/ganecms/companycms/css/companylogin.css" afterPath="$PROJECT_DIR$/ganecms/companycms/css/companylogin.css" />
+      <change beforePath="$PROJECT_DIR$/ganecms/companycms/css/companyresgin.css" afterPath="$PROJECT_DIR$/ganecms/companycms/css/companyresgin.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="basedownpayimg.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ganecms/basecms/basedownpayimg.html">
+      <file leaf-file-name="companyresgin.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ganecms/companycms/companyresgin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="220">
+              <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -86,14 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ganecms/servicecms/css/serdownpayimg.css" />
-        <option value="$PROJECT_DIR$/ganecms/servicecms/serdownpayimgsuccess.html" />
-        <option value="$PROJECT_DIR$/ganecms/servicecms/css/serdownpayimgsuccess.css" />
-        <option value="$PROJECT_DIR$/ganecms/servicecms/serconfirmpayimg.html" />
-        <option value="$PROJECT_DIR$/ganecms/servicecms/css/serconfirmpayimg.css" />
-        <option value="$PROJECT_DIR$/ganecms/companycms/css/companyorderconfirm.css" />
-        <option value="$PROJECT_DIR$/ganecms/companycms/css/companyordergoing.css" />
-        <option value="$PROJECT_DIR$/ganecms/companycms/companyorderconfirm.html" />
         <option value="$PROJECT_DIR$/ganecms/companycms/companyframe.html" />
         <option value="$PROJECT_DIR$/ganecms/companycms/companyordergoing.html" />
         <option value="$PROJECT_DIR$/ganecms/companycms/css/companyordererror.css" />
@@ -137,6 +105,14 @@
         <option value="$PROJECT_DIR$/ganecms/basecms/basemailmsg.html" />
         <option value="$PROJECT_DIR$/ganecms/basecms/css/basedownimg.css" />
         <option value="$PROJECT_DIR$/ganecms/basecms/basedownimg.html" />
+        <option value="$PROJECT_DIR$/ganecms/companycms/css/companylogin.css" />
+        <option value="$PROJECT_DIR$/ganecms/companycms/companylogin.html" />
+        <option value="$PROJECT_DIR$/ganecms/companycms/test2.html" />
+        <option value="$PROJECT_DIR$/ganecms/companycms/css/companyresgin.css" />
+        <option value="$PROJECT_DIR$/ganecms/companycms/test.html" />
+        <option value="$PROJECT_DIR$/ganecms/companycms/css/companyxuan.css" />
+        <option value="$PROJECT_DIR$/ganecms/companycms/companyxuan.html" />
+        <option value="$PROJECT_DIR$/ganecms/companycms/companyresgin.html" />
       </list>
     </option>
   </component>
@@ -173,6 +149,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,13 +166,13 @@
               <item name="ganenProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ganenProject" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ganecms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="basecms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="companycms" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="ganenProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="ganenProject" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="ganecms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="basecms" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="companycms" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -207,7 +184,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,18 +247,19 @@
       <workItem from="1524100540378" duration="23384000" />
       <workItem from="1524187127460" duration="4151000" />
       <workItem from="1524192951641" duration="22990000" />
-      <workItem from="1524446099689" duration="155000" />
+      <workItem from="1524446099689" duration="27065000" />
+      <workItem from="1524531565506" duration="10759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="451711000" />
+    <option name="totallyTimeSpent" value="489380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20179948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20437019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -301,6 +278,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24086604" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20179948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20758355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -313,62 +310,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ganecms/companycms/companyselectmsg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ganecms/companycms/css/companyselectmsg.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ganecms/companycms/companycheckonemsg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="71" column="6" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="71" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ganecms/companycms/css/companycheckonemsg.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ganecms/servicecms/serorderaddmail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ganecms/servicecms/css/serorderaddmail.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="69" column="22" lean-forward="false" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ganecms/companycms/css/companyordercomplate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ganecms/companycms/companyordercomplate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ganecms/companycms/companyorder.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="491">
@@ -665,8 +606,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ganecms/basecms/basedownpayimg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="227">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ganecms/companycms/css/companylogin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ganecms/companycms/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ganecms/companycms/companylogin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ganecms/companycms/css/companyxuan.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="40" column="19" lean-forward="true" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ganecms/companycms/companyxuan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ganecms/companycms/css/companyresgin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ganecms/companycms/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ganecms/companycms/companyresgin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
           <folding />
         </state>
       </provider>

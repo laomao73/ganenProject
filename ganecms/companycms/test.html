@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src="../../tooljs/jquery.min.js"></script>
+    <script src="../../tooljs/vue.min.js"></script>
+    <script src="../../tooljs/vue-resource.min.js"></script>
+</head>
+<body>
+<div id="box">
+    <input type="file" name="file" class="file" @change="trigget($event)" >
+    <button class="btn" @click="get()">按钮</button>
+</div>
+<script>
+    var app = new Vue({
+        el:'#box',
+        data:{
+            filename:'',
+            file:''
+        },
+        methods:{
+            trigget:function(event){
+                this.filename = event.target.value;
+                //alert(this.filename);
+            },
+            get:function(){
+                alert(this.filename);
+            }
+        }
+    });
+</script>
+</body>
+</html>

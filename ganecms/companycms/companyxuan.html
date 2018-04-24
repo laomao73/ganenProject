@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>企业公司选择</title>
+    <link rel="stylesheet" href="css/companyxuan.css">
+    <script src="../../tooljs/jquery.min.js"></script>
+    <script src="../../tooljs/vue.min.js"></script>
+    <script src="../../tooljs/vue-resource.min.js"></script>
+    <script>
+        $(function(){
+           var app = new Vue({
+               el:'#company-frame',
+               data:{
+                   arr:[
+                       {name:'北京感恩有你数字科技有限公司',id:2},
+                       {name:'北京水晶石数字科技有限公司',id:4},
+                       {name:'北京大白兔数字科技有限公司',id:6},
+                       {name:'北京大白猫数字科技有限公司',id:8}
+                   ],
+                   num:''
+               },
+               methods:{
+                   addClass:function(index){
+                       this.num = index;
+                       console.log(this.arr[index].id);
+                   }
+               }
+           });
+        });
+
+    </script>
+</head>
+<body>
+
+<!--企业公司选择-->
+<div id="company-frame">
+    <h3 class="company-title">公司选择</h3>
+    <ul>
+        <li v-for="(item,index) in arr" :class="{active:index==num}" @click="addClass(index)">{{item.name}}</li>
+    </ul>
+    <a href="javascript:;" class="btn">确定</a>
+</div>
+
+</body>
+</html>

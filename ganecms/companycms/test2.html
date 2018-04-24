@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test2</title>
+    <script src="../../tooljs/jquery.min.js"></script>
+    <script src="../../tooljs/vue.min.js"></script>
+    <script src="../../tooljs/vue-resource.min.js"></script>
+</head>
+<body>
+
+<div id="box">
+    <p>{{str}}</p>
+</div>
+
+</body>
+<script>
+    var app = new Vue({
+        el:'#box',
+        data:{
+            str:''
+        },
+        created:function(){
+            var str = localStorage.getItem('str');
+            this.str = str;
+        }
+    });
+</script>
+</html>

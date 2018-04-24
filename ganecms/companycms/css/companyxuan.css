@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: 微软雅黑;
+}
+
+body{
+    background:url(../images/companybg.png) no-repeat;
+    background-size: cover;
+}
+
+#company-frame{
+    width:600px;
+    height:500px;
+    background:#fff;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-300px;
+    margin-top:-250px;
+    padding: 30px;
+}
+
+.company-title{
+    font-size:18px;
+    text-align: center;
+}
+
+ul{
+    width:100%;
+    position:relative;
+    margin-top:50px;
+}
+
+ul li{
+    width:560px;
+    height:40px;
+    border-bottom:1px solid #ccc;
+    margin-bottom:30px;
+    font-size:14px;
+    line-height: 40px;
+    cursor: pointer;
+    padding:0 20px;
+}
+
+ul li.active{
+    background:#4c5d7b;
+    color:#fff;
+}
+
+.btn{
+    display: block;
+    width:300px;
+    height:50px;
+    background:#4c5d7b;
+    font-size:24px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color:#fff;
+    margin:100px auto;
+    position:relative;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
